@@ -14,8 +14,8 @@ is written by you or the agent — no code engine, nothing auto-generated.
 ## Hard rules
 
 - **Never `git commit` or `git push` unless the user explicitly asks** — *except* the
-  `daily-paper` skill running under the scheduled automation, which is pre-authorized to
-  commit a single credibility-gated paper. Nothing else may commit.
+  `daily-paper` skill, which is pre-authorized to commit **and push** a single
+  credibility-gated paper (files under `docs/` only). Nothing else may commit or push.
 - **High source bar.** Papers must clear the credibility standard in
   `docs/00-system/vault-contract.md`. Don't ingest tier-C sources silently.
 - **Link everything.** Every new source links ≥2 concepts and ≥1 sibling source; every
