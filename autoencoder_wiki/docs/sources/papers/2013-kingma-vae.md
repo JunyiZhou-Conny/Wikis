@@ -54,6 +54,7 @@ is the **variational autoencoder**.
 
 <Typed links — this is the root that the wiki's applied VAE papers build on.>
 
+- extends [[2006-hinton-deep-autoencoder]] — adds a probabilistic latent + ELBO to the deep autoencoder
 - background-for [[2018-lopez-scvi]] — scVI is a VAE (this framework) with a ZINB decoder for counts
 - background-for [[2018-way-tybalt]] — Tybalt applies the VAE directly to transcriptomes
 - introduces [[vae-elbo-scrna-count-models]] — the ELBO / KL objective these count models adapt

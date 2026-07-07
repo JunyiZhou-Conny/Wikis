@@ -12,6 +12,7 @@ Single-cell VAE / autoencoder topic index.
 
 ### Foundations
 
+- [[2006-hinton-deep-autoencoder]] — the original **deep autoencoder** (encoder/decoder/bottleneck, beats PCA). Tier A. Root of the general-AE thread.
 - [[2013-kingma-vae]] — the original **VAE** (reparameterization trick, ELBO). Tier A. Root of the VAE thread below.
 
 ### Perturbation prediction stack (refs 12–14)
