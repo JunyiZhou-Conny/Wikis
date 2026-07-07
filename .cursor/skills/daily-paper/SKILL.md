@@ -55,7 +55,11 @@ git add <WIKI>/docs/
 git commit -m "daily-paper: add {title} ({tier}, {venue} {year})"
 ```
 
-Do not push. Do not commit anything outside the wiki's `docs/`.
+Commit only files under the wiki's `docs/` — never anything else.
+
+- **Local / manual run:** commit only, do **not** push. The user reviews and pushes.
+- **Cloud automation run:** the cloud agent works on its own branch — commit, then let the
+  automation push that branch as usual so the change is visible for review.
 
 ### 6. Summary
 

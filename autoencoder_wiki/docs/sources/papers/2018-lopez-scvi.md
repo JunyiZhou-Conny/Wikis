@@ -48,6 +48,7 @@ scVI models scRNA-seq counts with a **variational autoencoder** whose conditiona
 
 ## Related
 
+- extends [[2013-kingma-vae]] — scVI is a VAE with a ZINB decoder for scRNA counts
 - [[2019-lotfollahi-scgen]]
 - [[2026-06-17-002-vae-scrna-effectiveness-synthesis]]
 - [[vae-elbo-scrna-count-models]]

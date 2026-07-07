@@ -45,6 +45,7 @@ Tybalt learns a **low-dimensional latent space** from high-dimensional gene expr
 
 ## Related
 
+- extends [[2013-kingma-vae]] — applies the VAE directly to transcriptome expression matrices
 - [[2026-06-17-002-vae-scrna-effectiveness-synthesis]]
 - [[hyperparameter-sensitivity-vae-scrna]]
 - [[evaluating-vae-scrna-metrics]]

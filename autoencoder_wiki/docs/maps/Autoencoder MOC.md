@@ -10,6 +10,10 @@ tags:
 
 Single-cell VAE / autoencoder topic index.
 
+### Foundations
+
+- [[2013-kingma-vae]] — the original **VAE** (reparameterization trick, ELBO). Tier A. Root of the VAE thread below.
+
 ### Perturbation prediction stack (refs 12–14)
 
 - [[2018-lopez-scvi]] — scVI, foundational scRNA **VAE** (Lopez et al. 2018)
