@@ -1,0 +1,19 @@
+.DS_Store
+**/.DS_Store
+
+# Obsidian UI state — never commit (personal layout, graph positions, theme)
+**/.obsidian/workspace*.json
+**/.obsidian/graph.json
+**/.obsidian/cache/
+**/.obsidian/trash/
+**/.obsidian/hotkeys.json
+**/.obsidian/appearance.json
+**/.obsidian/app.json
+**/.obsidian/canvas.json
+**/.obsidian/plugins/**/data.json
+
+# Scratch canvases
+**/*.canvas
+
+# Large L0 binaries — keep PDFs out of git (manifests in raw/ are fine)
+**/sources/raw/**/*.pdf

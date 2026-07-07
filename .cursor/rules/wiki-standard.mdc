@@ -1,0 +1,42 @@
+---
+description: Note-writing standard for this research wiki — credibility tiers, frontmatter, typed linking
+alwaysApply: true
+---
+
+# Wiki note standard
+
+This is a hand-curated research brain (no engine, nothing auto-generated). Three note types:
+`source` (`sources/{kind}/`), `concept` (`concepts/`), `moc` (`maps/`).
+
+## Source credibility (papers)
+
+Every `source_kind: paper` needs `tier`, `venue`, `year`, `authors`, `approx_citations`.
+
+- **A** = top venue (NeurIPS/ICML/ICLR/Nature/Science) OR frontier lab (DeepMind, OpenAI, Anthropic, Google, Meta FAIR) OR the canonical paper for a method.
+- **B** = solid peer-reviewed, reasonably cited for its age.
+- **C** = preprint/blog/unvetted — only with explicit justification. Never add tier-C silently; flag it.
+
+## Typed linking (required)
+
+Every source links ≥2 concepts and ≥1 sibling source. Every concept links ≥2 sources.
+In `## Related`, state the relationship — don't drop a bare wikilink:
+
+```markdown
+## Related
+- extends [[2018-lopez-scvi]] — adds semi-supervised labels on scVI's latent
+- benchmarks [[2020-li-dr-benchmark]] — evaluated head-to-head there
+```
+
+Verbs: `extends`, `contradicts`, `benchmarks`, `supersedes`, `applies`, `introduces`, `background-for`.
+
+## Frontmatter shape
+
+Follow `docs/00-system/templates/source-note.md` and `concept-note.md`. Filenames:
+papers `{year}-{author}-{short-slug}.md`; discussions `{date}-{seq}-{slug}.md`. Wikilinks use
+the filename stem only. Tags stay in the small taxonomy (`#source`/`#concept`/`#moc`,
+`domain/*`, `topic/*`, `method/*`, `field/*`) — don't invent one-offs.
+
+## Don't
+
+- No `runs/`, `engine`, or `regenerate_cmd` fields — that machinery was removed.
+- Don't web-search to fill gaps in a note's *claims*; ground claims in the source itself.
