@@ -49,8 +49,8 @@ Lotfollahi, Wolf & Theis, *Nature Methods* 2019 (vol. 16, pp. 715–721).
 
 ## Related
 
-- [[2018-lopez-scvi]]
-- [[2020-yang-cellot]]
-- [[latent-arithmetic-vs-global-shift]]
-- [[2026-06-17-002-vae-scrna-effectiveness-synthesis]]
+- extends [[2018-lopez-scvi]] — builds perturbation prediction on the scVI-family VAE latent
+- contrasts [[2020-yang-cellot]] — OT-based transport vs scGen's latent vector arithmetic
+- introduces [[latent-arithmetic-vs-global-shift]] — the Fig5 latent-arithmetic recipe
+- background-for [[2026-06-17-002-vae-scrna-effectiveness-synthesis]] — perturbation-stack anchor
 - [[Sources MOC]]

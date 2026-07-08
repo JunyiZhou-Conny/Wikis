@@ -58,8 +58,8 @@ then `decode(encode(x) + shift)`. Default AE: **512×512**, **latent 50**, **β=
 
 ## Related
 
-- [[2019-lotfollahi-scgen]]
-- [[latent-arithmetic-vs-global-shift]]
-- [[probabilistic-vae-vs-count-autoencoder]]
-- [[autoencoder-hidden-layer-width-scrna]]
+- contrasts [[2019-lotfollahi-scgen]] — OT transport vs scGen latent arithmetic (VAE-vs-AE recipe gap)
+- applies [[latent-arithmetic-vs-global-shift]] — its `transport_scgen` global-shift is one side of this split
+- applies [[probabilistic-vae-vs-count-autoencoder]] — uses a deterministic AE bottleneck, not a VAE
+- background-for [[autoencoder-hidden-layer-width-scrna]] — 512×512/latent-50 default AE architecture
 - [[Sources MOC]]

@@ -46,7 +46,8 @@ Xu et al., *Molecular Systems Biology* 2021. Extends **scVI** with semi-supervis
 
 ## Related
 
-- [[2018-lopez-scvi]]
-- [[2026-06-17-002-vae-scrna-effectiveness-synthesis]]
-- [[vae-elbo-scrna-count-models]]
+- extends [[2018-lopez-scvi]] — scANVI adds semi-supervised labels on top of scVI's latent
+- applies [[probabilistic-vae-vs-count-autoencoder]] — a variational (scVI-family) model, not a deterministic count AE
+- background-for [[vae-elbo-scrna-count-models]] — extends the scVI ELBO with label-conditioned components
+- background-for [[2026-06-17-002-vae-scrna-effectiveness-synthesis]] — ecosystem-extension anchor paper
 - [[Sources MOC]]

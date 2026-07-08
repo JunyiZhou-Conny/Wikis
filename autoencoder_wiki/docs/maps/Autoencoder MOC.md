@@ -35,8 +35,29 @@ Master notes: [[2026-06-17-002-vae-scrna-effectiveness-synthesis]] · Seed: [[20
 - [[2018-way-tybalt]] — Tybalt VAE + tuning (~400 citations)
 - [[2021-xu-scanvi]] — scANVI extension (~600 citations)
 
+### Latent-dimension selection & the PCA connection (2026-07-07 batch)
+
+*Does PCA explained variance set a ceiling for the autoencoder latent dim?* Ingested sources:
+
+- [[2019-rolinek-vae-pca-directions]] — **why** VAE latents resemble PCA directions (CVPR 2019). Tier A.
+- [[2020-bao-regularized-lae-pca]] — LAEs recover *ordered* PCs only with regularization (NeurIPS 2020). Tier A.
+- [[2025-saha-ard-vae]] — ARD prior prunes irrelevant VAE latent axes (WACV 2025). Tier B.
+- [[2022-pham-pca-ae]] — autoencoder with PCA-ordered, independent latents (JMIV 2022). Tier B.
+- [[2020-raimundo-dr-parameter-tuning]] — scVI latent dim needs per-dataset tuning (Genome Biology 2020). Tier B.
+- [[2025-biondo-intrinsic-dimension-expression]] — intrinsic dimension of scRNA expression (Nucleic Acids Research 2025). Tier B.
+- [[2026-zhan-pcae-ordered-latent]] — cumulative-variance latent selection via ordered PCAE. **Tier C (preprint)**.
+- [[2019-bahadur-ae-dimension-estimation]] — singular-value proxies for AE dimension estimation. **Tier C (preprint)**.
+- [[2022-bonheme-fondue]] — FONDUE: intrinsic-dim divergence to size VAE latents. **Tier C (preprint)**.
+- [[2026-ritschel-vae-knowledge-compression]] — what VAEs forget first under compression. **Tier C (preprint)**.
+
+Concepts: [[choosing-latent-dimension]] · [[linear-autoencoder-pca-equivalence]] · [[intrinsic-dimension-latent-sizing]] · [[passive-latent-dimensions]]
+
 ### Concepts (draft — interact to refine)
 
+- [[choosing-latent-dimension]]
+- [[linear-autoencoder-pca-equivalence]]
+- [[intrinsic-dimension-latent-sizing]]
+- [[passive-latent-dimensions]]
 - [[scrna-dr-pipeline-hvg-to-latent]]
 - [[vae-elbo-scrna-count-models]]
 - [[autoencoder-hidden-layer-width-scrna]]

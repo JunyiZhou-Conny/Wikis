@@ -46,8 +46,8 @@ Tybalt learns a **low-dimensional latent space** from high-dimensional gene expr
 ## Related
 
 - extends [[2013-kingma-vae]] — applies the VAE directly to transcriptome expression matrices
-- [[2026-06-17-002-vae-scrna-effectiveness-synthesis]]
-- [[hyperparameter-sensitivity-vae-scrna]]
-- [[evaluating-vae-scrna-metrics]]
-- [[autoencoder-hidden-layer-width-scrna]]
+- background-for [[2026-06-17-002-vae-scrna-effectiveness-synthesis]] — anchor paper for the effectiveness synthesis
+- introduces [[hyperparameter-sensitivity-vae-scrna]] — its follow-up shows VAE quality collapses when mis-tuned
+- applies [[evaluating-vae-scrna-metrics]] — supplies the NMI/ARI/silhouette evaluation recipe
+- background-for [[autoencoder-hidden-layer-width-scrna]] — motivates ablating width/depth/latent dim
 - [[Sources MOC]]

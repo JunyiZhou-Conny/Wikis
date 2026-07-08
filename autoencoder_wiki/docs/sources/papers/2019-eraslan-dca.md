@@ -47,8 +47,8 @@ Eraslan et al., *Nature Communications* 2019.
 
 ## Related
 
-- [[2026-06-17-002-vae-scrna-effectiveness-synthesis]]
-- [[probabilistic-vae-vs-count-autoencoder]]
-- [[autoencoder-hidden-layer-width-scrna]]
-- [[2018-lopez-scvi]]
+- background-for [[2026-06-17-002-vae-scrna-effectiveness-synthesis]] — anchor paper for the effectiveness synthesis
+- introduces [[probabilistic-vae-vs-count-autoencoder]] — defines the deterministic count-AE side of that split
+- introduces [[autoencoder-hidden-layer-width-scrna]] — its 64-32-64 default anchors the width discussion
+- contrasts [[2018-lopez-scvi]] — count autoencoder (denoising) vs full VAE (latent inference)
 - [[Sources MOC]]

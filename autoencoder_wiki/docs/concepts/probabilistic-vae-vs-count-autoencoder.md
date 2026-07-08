@@ -36,6 +36,6 @@ Pick based on whether you need **generative latent inference** or **denoised cou
 
 ## Related
 
-- [[vae-elbo-scrna-count-models]]
-- [[2018-lopez-scvi]]
-- [[2019-eraslan-dca]]
+- extends [[vae-elbo-scrna-count-models]] — the ELBO/count-likelihood objective this split turns on
+- introduces [[2018-lopez-scvi]] — the variational (scVI) side of the split
+- contrasts [[2019-eraslan-dca]] — the deterministic count-autoencoder (DCA) side

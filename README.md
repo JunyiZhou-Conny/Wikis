@@ -7,6 +7,7 @@ Personal wiki projects — **sibling repos**, each with its own `AGENTS.md`, `RE
 | [finance_wiki](./finance_wiki/) | `finance_wiki/Finance-Wiki/` | Macro, markets, China FX, IPO |
 | [autoencoder_wiki](./autoencoder_wiki/) | `autoencoder_wiki/docs/` | Autoencoders & ML |
 | [ml-hardware_wiki](./ml-hardware_wiki/) | `ml-hardware_wiki/docs/` | CPU, GPU, model training |
+| [optimal_transport_wiki](./optimal_transport_wiki/) | `optimal_transport_wiki/docs/` | Optimal transport: Sinkhorn, Wasserstein/GW, neural & unbalanced OT |
 
 ## Shared tooling (`.cursor/`)
 

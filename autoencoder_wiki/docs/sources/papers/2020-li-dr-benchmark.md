@@ -48,7 +48,7 @@ Comprehensive comparison of dimensionality reduction for scRNA-seq across neighb
 ## Related
 
 - benchmarks [[2006-hinton-deep-autoencoder]] — runs the "autoencoder vs linear DR" question at scale on scRNA
-- [[2026-06-17-002-vae-scrna-effectiveness-synthesis]]
-- [[evaluating-vae-scrna-metrics]]
-- [[vae-vs-linear-nonlinear-dr-benchmarks]]
+- background-for [[2026-06-17-002-vae-scrna-effectiveness-synthesis]] — anchor benchmark for the synthesis
+- introduces [[evaluating-vae-scrna-metrics]] — supplies the metric families for judging DR usefulness
+- introduces [[vae-vs-linear-nonlinear-dr-benchmarks]] — the "no universal winner" head-to-head result
 - [[Sources MOC]]

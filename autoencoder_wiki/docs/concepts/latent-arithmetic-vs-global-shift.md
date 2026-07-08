@@ -37,7 +37,7 @@ Same pseudobulk R² metric can compare **different prediction problems**. Stage 
 
 ## Related
 
-- [[2019-lotfollahi-scgen]]
-- [[2020-yang-cellot]]
-- [[vae-elbo-scrna-count-models]]
-- [[evaluating-vae-scrna-metrics]]
+- introduces [[2019-lotfollahi-scgen]] — the scGen Fig5 latent-arithmetic recipe
+- contrasts [[2020-yang-cellot]] — the CellOT `transport_scgen` global-shift recipe
+- background-for [[vae-elbo-scrna-count-models]] — both recipes operate on a VAE/AE latent
+- applies [[evaluating-vae-scrna-metrics]] — pseudobulk R² and related metrics compare the two
