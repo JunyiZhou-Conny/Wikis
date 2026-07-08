@@ -49,6 +49,7 @@ contribution. The **Wasserstein-Fisher-Rao** (WFR) metric is a distinguished mem
 ## Related
 
 - introduces [[balanced-vs-unbalanced-ot]] — defines the unbalanced problem via marginal relaxation
+- introduces [[wasserstein-fisher-rao-metric]] — defines this distinguished metric as a special member
 - extends [[monge-kantorovich-formulations]] — generalizes the Kantorovich coupling to unequal mass
 - background-for [[2018-chizat-scaling-algorithms-unbalanced]] — the theory its scaling algorithms solve
 - background-for [[2019-sejourne-unbalanced-sinkhorn-divergences]] — formal basis for unbalanced Sinkhorn divergences

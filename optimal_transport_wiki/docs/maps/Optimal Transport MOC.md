@@ -43,6 +43,7 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 - [[entropic-regularization-sinkhorn]]
 - [[gromov-wasserstein-distance]]
 - [[balanced-vs-unbalanced-ot]]
+- [[wasserstein-fisher-rao-metric]]
 - [[neural-optimal-transport]]
 
 ## All sources
