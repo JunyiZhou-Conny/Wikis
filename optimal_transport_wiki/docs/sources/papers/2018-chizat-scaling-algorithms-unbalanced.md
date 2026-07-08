@@ -51,6 +51,7 @@ transport, unbalanced gradient flows, and unbalanced barycenters.
 - extends [[2018-chizat-unbalanced-ot-formulations]] — turns the static unbalanced formulation into fast solvers
 - applies [[entropic-regularization-sinkhorn]] — generalizes Sinkhorn scaling to soft marginals
 - introduces [[balanced-vs-unbalanced-ot]] — the marginal-relaxation mechanism, algorithmically
+- applies [[wasserstein-fisher-rao-metric]] — its scaling iterations compute this metric's transport
 - extends [[2013-cuturi-sinkhorn-distances]] — unbalanced generalization of entropic OT
 - benchmarks [[2019-sejourne-unbalanced-sinkhorn-divergences]] — later debiases these unbalanced Sinkhorn costs
 - [[Sources MOC]]

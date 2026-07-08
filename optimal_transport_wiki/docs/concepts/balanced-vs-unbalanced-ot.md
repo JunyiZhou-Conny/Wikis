@@ -46,4 +46,5 @@ robust to outliers/noise than balanced OT.
 - extends [[2018-chizat-scaling-algorithms-unbalanced]] — Sinkhorn scaling for the unbalanced problem
 - applies [[2019-yang-scalable-unbalanced-ot-gans]] — neural map + scaling factor for mass change
 - background-for [[2019-sejourne-unbalanced-sinkhorn-divergences]] — robust debiased losses for the regime
+- background-for [[wasserstein-fisher-rao-metric]] — its distinguished metric interpolating transport and growth
 - contrasts [[monge-kantorovich-formulations]] — the balanced, exact-marginal baseline
