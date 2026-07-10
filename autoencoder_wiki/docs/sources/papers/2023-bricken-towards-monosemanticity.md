@@ -66,6 +66,7 @@ neuron basis, enabling inspection, steering, and basic circuit-style analysis.
 
 ## Related
 
+- extends [[1997-olshausen-sparse-coding-overcomplete]] — classical overcomplete sparse coding, applied as an SAE on LM MLP activations
 - extends [[2006-hinton-deep-autoencoder]] — keeps AE reconstruction, but replaces the compressive bottleneck with an **overcomplete sparse** code aimed at interpretability
 - contrasts [[2013-kingma-vae]] — deterministic L1-sparse AE on frozen activations vs probabilistic ELBO latents trained end-to-end
 - introduces [[sparse-autoencoder-dictionary-learning]] — SAE as scalable weak dictionary learning for superposition

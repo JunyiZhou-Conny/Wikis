@@ -11,6 +11,7 @@ tags:
 distilled_from:
   - "[[2023-bricken-towards-monosemanticity]]"
   - "[[2006-hinton-deep-autoencoder]]"
+  - "[[1997-olshausen-sparse-coding-overcomplete]]"
 ---
 
 # Monosemantic features vs polysemantic neurons
@@ -23,15 +24,17 @@ a direction (often a sparse dictionary atom) that tracks one coherent concept. W
 
 Autoencoders and MLPs give you a coordinate basis (hidden units / code dims), but that basis need
 not align with human-meaningful factors ([[2006-hinton-deep-autoencoder]] gives useful codes, not
-guaranteed monosemantic axes). Interpretability work therefore *re-decomposes* activations into
-features ([[2023-bricken-towards-monosemanticity]]).
+guaranteed monosemantic axes). Classical sparse coding already treated **selective atoms** as the
+right unit ([[1997-olshausen-sparse-coding-overcomplete]]); modern interpretability *re-decomposes*
+LM activations into such features ([[2023-bricken-towards-monosemanticity]]).
 
 ## Details
 
 - **Polysemanticity:** one neuron mixes unrelated contexts (e.g. citations + dialogue + HTTP +
   Korean in a small LM); also classic in vision (cat faces + car fronts).
 - **Superposition hypothesis:** more useful sparse features than neurons → features stored as
-  overlapping linear combinations; sparsity at inference lets the net (and an SAE) disentangle them.
+  overlapping linear combinations; sparsity at inference lets the net (and an SAE) disentangle them
+  — the same overcomplete + sparse logic Olshausen & Field used for V1.
 - **Evidence a feature is "real":** consistent activating examples, causal steering when pinned,
   presence across models (universality), and absence from any single neuron's top examples.
 - **Not the same as VAE "passive dims":** unused VAE axes collapse to the prior
@@ -40,6 +43,7 @@ features ([[2023-bricken-towards-monosemanticity]]).
 ## Related
 
 - introduces [[2023-bricken-towards-monosemanticity]] — SAEs as a practical route to monosemantic features in LM MLPs
+- background-for [[1997-olshausen-sparse-coding-overcomplete]] — sparse overcomplete atoms as selective (V1-like) features
 - background-for [[2006-hinton-deep-autoencoder]] — bottleneck codes are useful representations, not a claim of monosemantic neurons
 - applies [[sparse-autoencoder-dictionary-learning]] — the decomposition method that targets this distinction
 - contrasts [[passive-latent-dimensions]] — mixed-but-active neurons vs collapsed unused latent axes
