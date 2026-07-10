@@ -55,5 +55,6 @@ solvers and trivially GPU-parallel.
 - applies [[monge-kantorovich-formulations]] — regularizes the Kantorovich primal
 - background-for [[2019-peyre-computational-optimal-transport]] — the algorithmic core that monograph systematizes
 - benchmarks [[2018-alvarez-melis-gromov-wasserstein-alignment]] — used there as the inner solver for GW
+- background-for [[2020-williams-intro-optimal-transport]] — pedagogical companion covering the same ε→0 / ε→∞ picture
 - [[Sources MOC]]
 - [[Optimal Transport MOC]]

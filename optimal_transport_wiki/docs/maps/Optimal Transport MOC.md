@@ -14,12 +14,12 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 
 ## Start here (tutorials)
 
-- [[2020-williams-intro-optimal-transport]] — intuition-first intro: Wasserstein vs KL, discrete OT as an LP, entropic reg. **Tier C (expository blog)**.
+- [[2020-williams-intro-optimal-transport]] — **primary learning source** for this wiki. Intuition-first intro: Wasserstein vs KL, Earth-mover picture, discrete OT as an LP, closed forms (1D / Gaussians), entropic reg. **Tier C (expository blog)** — kept deliberately as the onramp; graduate to Peyré & Cuturi next.
 
 ## Foundations
 
 - [[2013-cuturi-sinkhorn-distances]] — entropic regularization + Sinkhorn scaling (NeurIPS 2013). Tier A. The computational root of modern OT.
-- [[2019-peyre-computational-optimal-transport]] — the standard computational-OT monograph (Peyré & Cuturi). Tier A.
+- [[2019-peyre-computational-optimal-transport]] — the standard computational-OT monograph (Peyré & Cuturi). Tier A. Depth after Williams.
 
 ## Distances & couplings
 
@@ -41,6 +41,7 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 
 - [[monge-kantorovich-formulations]]
 - [[wasserstein-distance]]
+- [[closed-form-wasserstein]]
 - [[entropic-regularization-sinkhorn]]
 - [[gromov-wasserstein-distance]]
 - [[balanced-vs-unbalanced-ot]]

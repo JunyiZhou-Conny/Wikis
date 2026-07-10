@@ -12,6 +12,7 @@ distilled_from:
   - "[[2018-chizat-scaling-algorithms-unbalanced]]"
   - "[[2019-sejourne-unbalanced-sinkhorn-divergences]]"
   - "[[2019-yang-scalable-unbalanced-ot-gans]]"
+  - "[[2020-williams-intro-optimal-transport]]"
 ---
 
 # Balanced vs unbalanced optimal transport
@@ -39,6 +40,8 @@ robust to outliers/noise than balanced OT.
 - **Neural / scalable:** learn a transport map **plus a scaling factor** for mass, GAN-style
   ([[2019-yang-scalable-unbalanced-ot-gans]]).
 - Balanced OT ([[monge-kantorovich-formulations]]) is the equal-mass special case.
+- Learning pointer: [[2020-williams-intro-optimal-transport]] flags unbalanced OT (via Peyré &
+  Cuturi §10.2) as the unequal-mass extension of the balanced LP picture.
 
 ## Related
 
@@ -48,3 +51,4 @@ robust to outliers/noise than balanced OT.
 - background-for [[2019-sejourne-unbalanced-sinkhorn-divergences]] — robust debiased losses for the regime
 - background-for [[wasserstein-fisher-rao-metric]] — its distinguished metric interpolating transport and growth
 - contrasts [[monge-kantorovich-formulations]] — the balanced, exact-marginal baseline
+- background-for [[2020-williams-intro-optimal-transport]] — pedagogical pointer to unequal-mass OT

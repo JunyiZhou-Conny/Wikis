@@ -8,6 +8,7 @@ tags:
   - domain/math
   - topic/optimal-transport
 distilled_from:
+  - "[[2020-williams-intro-optimal-transport]]"
   - "[[2013-cuturi-sinkhorn-distances]]"
   - "[[2023-bunne-cellot-neural-ot]]"
   - "[[2018-alvarez-melis-gromov-wasserstein-alignment]]"
@@ -26,12 +27,15 @@ distribution) γ, giving a linear program with a well-behaved dual.
 Almost every OT method is "which formulation, solved how": Kantorovich's coupling underlies
 discrete/entropic solvers; the **dual** underlies neural-OT (learn potentials, recover the Monge
 map as their gradient). Knowing the primal/dual pair explains why methods look so different.
+[[2020-williams-intro-optimal-transport]] motivates Kantorovich via mass-splitting in the
+dirt-piles picture.
 
 ## Details
 
 - **Monge (1781):** minimize E‖X − T(X)‖² over maps with T#μ = ν. Non-convex; a map may not exist.
 - **Kantorovich (1942):** minimize ⟨γ, C⟩ over couplings γ ∈ Π(μ, ν) with the given marginals — a
   linear program, always solvable ([[2013-cuturi-sinkhorn-distances]], [[2018-alvarez-melis-gromov-wasserstein-alignment]]).
+  The product coupling μ⊗ν is always feasible ([[2020-williams-intro-optimal-transport]]).
 - **Duality:** the dual is a concave problem over potentials (f, g); Brenier/Knott–Smith link the
   optimal map to ∇f*, which **neural OT** exploits ([[2023-bunne-cellot-neural-ot]]). Weak OT
   extends the dual via a \(C\)-transform over conditional measures, enabling stochastic plans
@@ -40,6 +44,7 @@ map as their gradient). Knowing the primal/dual pair explains why methods look s
 
 ## Related
 
+- applies [[2020-williams-intro-optimal-transport]] — dirt-piles intuition for the Kantorovich relaxation
 - introduces [[2013-cuturi-sinkhorn-distances]] — regularizes the Kantorovich primal
 - applies [[2023-bunne-cellot-neural-ot]] — parameterizes the dual potentials to recover a Monge map
 - applies [[2023-korotin-neural-optimal-transport]] — maximin dual for strong/weak costs → stochastic maps
