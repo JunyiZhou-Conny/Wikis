@@ -19,6 +19,7 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 ## Foundations
 
 - [[2013-cuturi-sinkhorn-distances]] — entropic regularization + Sinkhorn scaling (NeurIPS 2013). Tier A. The computational root of modern OT.
+- [[2014-cuturi-wasserstein-barycenters]] — fast entropic algorithms for Wasserstein barycenters (ICML 2014). Tier A.
 - [[2019-peyre-computational-optimal-transport]] — the standard computational-OT monograph (Peyré & Cuturi). Tier A.
 
 ## Distances & couplings
@@ -41,6 +42,7 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 
 - [[monge-kantorovich-formulations]]
 - [[wasserstein-distance]]
+- [[wasserstein-barycenters]]
 - [[entropic-regularization-sinkhorn]]
 - [[gromov-wasserstein-distance]]
 - [[balanced-vs-unbalanced-ot]]

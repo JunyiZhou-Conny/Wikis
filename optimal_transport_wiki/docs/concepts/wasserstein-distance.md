@@ -9,6 +9,7 @@ tags:
   - topic/wasserstein
 distilled_from:
   - "[[2013-cuturi-sinkhorn-distances]]"
+  - "[[2014-cuturi-wasserstein-barycenters]]"
   - "[[2023-bunne-cellot-neural-ot]]"
   - "[[2019-peyre-computational-optimal-transport]]"
   - "[[2023-korotin-neural-optimal-transport]]"
@@ -31,12 +32,16 @@ as a loss/geometry in generative modeling, alignment, and single-cell trajectory
   ([[2023-bunne-cellot-neural-ot]], [[2023-korotin-neural-optimal-transport]]).
 - Computing it exactly is an LP; entropic regularization gives the fast **Sinkhorn distance**
   surrogate ([[2013-cuturi-sinkhorn-distances]]).
+- The Fréchet mean under $W_p$ is the **Wasserstein barycenter**
+  ([[2014-cuturi-wasserstein-barycenters]], [[wasserstein-barycenters]]).
 - Full definitions, metric properties, and geodesics: [[2019-peyre-computational-optimal-transport]].
 
 ## Related
 
 - background-for [[2013-cuturi-sinkhorn-distances]] — the smoothed, fast approximation
+- background-for [[2014-cuturi-wasserstein-barycenters]] — Fréchet means under $W_p^p$
 - applies [[2023-bunne-cellot-neural-ot]] — optimizes the W₂ dual with neural potentials
 - applies [[2023-korotin-neural-optimal-transport]] — learns W₂ / γ-weak quadratic maps and plans
 - introduces [[2019-peyre-computational-optimal-transport]] — reference definitions and properties
 - extends [[monge-kantorovich-formulations]] — the distance is the optimal value of those problems
+- extends [[wasserstein-barycenters]] — barycenters are Fréchet means of this distance
