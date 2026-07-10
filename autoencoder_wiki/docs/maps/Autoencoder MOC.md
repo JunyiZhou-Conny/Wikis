@@ -71,11 +71,13 @@ Concepts: [[choosing-latent-dimension]] · [[linear-autoencoder-pca-equivalence]
 
 ### Sparse autoencoders & monosemantic features (2026-07-10)
 
-*Planned "denoising / sparse autoencoders" thread — frontier interpretability use of AEs:*
+*Sparse / overcomplete coding thread — classical roots through frontier interpretability SAEs:*
 
+- [[1997-olshausen-sparse-coding-overcomplete]] — Olshausen & Field **overcomplete sparse coding** for V1-like RFs (Vision Research 1997). Tier A (canonical method).
 - [[2023-bricken-towards-monosemanticity]] — Anthropic SAE dictionary learning on LM MLP activations (Transformer Circuits 2023). Tier A.
 
 Concepts: [[sparse-autoencoder-dictionary-learning]] · [[monosemantic-features-vs-polysemantic-neurons]]
+
 
 ## General topics (planned)
 
