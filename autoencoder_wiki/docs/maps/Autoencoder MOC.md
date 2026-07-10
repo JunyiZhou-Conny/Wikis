@@ -66,11 +66,21 @@ Concepts: [[choosing-latent-dimension]] · [[linear-autoencoder-pca-equivalence]
 - [[hyperparameter-sensitivity-vae-scrna]]
 - [[probabilistic-vae-vs-count-autoencoder]]
 - [[latent-arithmetic-vs-global-shift]]
+- [[sparse-autoencoder-dictionary-learning]]
+- [[monosemantic-features-vs-polysemantic-neurons]]
+
+### Sparse autoencoders & monosemantic features (2026-07-10)
+
+*Planned "denoising / sparse autoencoders" thread — frontier interpretability use of AEs:*
+
+- [[2023-bricken-towards-monosemanticity]] — Anthropic SAE dictionary learning on LM MLP activations (Transformer Circuits 2023). Tier A.
+
+Concepts: [[sparse-autoencoder-dictionary-learning]] · [[monosemantic-features-vs-polysemantic-neurons]]
 
 ## General topics (planned)
 
 - Vanilla autoencoder (encoder / decoder / bottleneck)
-- Denoising / sparse autoencoders
+- Denoising autoencoders (sparse AE thread started above)
 - Applications beyond scRNA
 
 ## All concepts

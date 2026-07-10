@@ -59,5 +59,6 @@ is the **variational autoencoder**.
 - background-for [[2018-way-tybalt]] — Tybalt applies the VAE directly to transcriptomes
 - introduces [[vae-elbo-scrna-count-models]] — the ELBO / KL objective these count models adapt
 - contrasts [[probabilistic-vae-vs-count-autoencoder]] — defines the "variational" side of that split
+- contrasts [[2023-bricken-towards-monosemanticity]] — end-to-end ELBO latents vs post-hoc L1-sparse AE on frozen activations
 - [[Sources MOC]]
 - [[Autoencoder MOC]]
