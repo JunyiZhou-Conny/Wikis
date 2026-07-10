@@ -49,3 +49,4 @@ data, not the model).
 - benchmarks [[2026-ritschel-vae-knowledge-compression]] — per-dimension KL + stability plateau evidence
 - background-for [[choosing-latent-dimension]] — passive-dimension signals as a way to pick/verify latent size
 - contrasts [[intrinsic-dimension-latent-sizing]] — model-side collapse vs data-side degrees of freedom
+- contrasts [[monosemantic-features-vs-polysemantic-neurons]] — collapsed unused VAE axes vs mixed-but-active polysemantic neurons
