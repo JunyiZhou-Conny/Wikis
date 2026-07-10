@@ -12,6 +12,7 @@ distilled_from:
   - "[[2023-bunne-cellot-neural-ot]]"
   - "[[2018-alvarez-melis-gromov-wasserstein-alignment]]"
   - "[[2019-peyre-computational-optimal-transport]]"
+  - "[[2023-korotin-neural-optimal-transport]]"
 ---
 
 # Monge and Kantorovich formulations of OT
@@ -32,12 +33,15 @@ map as their gradient). Knowing the primal/dual pair explains why methods look s
 - **Kantorovich (1942):** minimize ⟨γ, C⟩ over couplings γ ∈ Π(μ, ν) with the given marginals — a
   linear program, always solvable ([[2013-cuturi-sinkhorn-distances]], [[2018-alvarez-melis-gromov-wasserstein-alignment]]).
 - **Duality:** the dual is a concave problem over potentials (f, g); Brenier/Knott–Smith link the
-  optimal map to ∇f*, which **neural OT** exploits ([[2023-bunne-cellot-neural-ot]]).
+  optimal map to ∇f*, which **neural OT** exploits ([[2023-bunne-cellot-neural-ot]]). Weak OT
+  extends the dual via a \(C\)-transform over conditional measures, enabling stochastic plans
+  ([[2023-korotin-neural-optimal-transport]]).
 - The monograph [[2019-peyre-computational-optimal-transport]] is the reference treatment.
 
 ## Related
 
 - introduces [[2013-cuturi-sinkhorn-distances]] — regularizes the Kantorovich primal
 - applies [[2023-bunne-cellot-neural-ot]] — parameterizes the dual potentials to recover a Monge map
+- applies [[2023-korotin-neural-optimal-transport]] — maximin dual for strong/weak costs → stochastic maps
 - background-for [[2018-alvarez-melis-gromov-wasserstein-alignment]] — GW builds on the coupling polytope
 - extends [[balanced-vs-unbalanced-ot]] — unbalanced OT relaxes the Kantorovich marginal constraints
