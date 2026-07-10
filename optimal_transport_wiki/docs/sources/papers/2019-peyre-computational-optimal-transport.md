@@ -47,7 +47,9 @@ Sinkhorn algorithm, Wasserstein barycenters, Gromov-Wasserstein, and extensions 
 ## Related
 
 - extends [[2013-cuturi-sinkhorn-distances]] — systematizes the entropic/Sinkhorn method it helped popularize
+- extends [[2014-cuturi-wasserstein-barycenters]] — surveys barycenters as a core computational-OT primitive
 - introduces [[wasserstein-distance]] — canonical reference definition used across the wiki
+- background-for [[wasserstein-barycenters]] — monograph treatment of Fréchet means under $W_p$
 - background-for [[monge-kantorovich-formulations]] — textbook treatment of primal/dual OT
 - background-for [[gromov-wasserstein-distance]] — surveys GW among OT extensions
 - background-for [[balanced-vs-unbalanced-ot]] — situates unbalanced OT within computational OT

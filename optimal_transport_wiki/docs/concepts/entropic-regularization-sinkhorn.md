@@ -10,6 +10,7 @@ tags:
   - method/sinkhorn
 distilled_from:
   - "[[2013-cuturi-sinkhorn-distances]]"
+  - "[[2014-cuturi-wasserstein-barycenters]]"
   - "[[2018-alvarez-melis-gromov-wasserstein-alignment]]"
   - "[[2018-chizat-scaling-algorithms-unbalanced]]"
   - "[[2019-sejourne-unbalanced-sinkhorn-divergences]]"
@@ -31,6 +32,8 @@ Gromov-Wasserstein and to unbalanced problems.
 
 - Solution form Γ* = diag(u) K diag(v), K = exp(−C/λ); Sinkhorn alternately rescales rows/columns
   ([[2013-cuturi-sinkhorn-distances]]).
+- The same scaling supplies **smoothed primal/dual gradients** for Wasserstein barycenters
+  ([[2014-cuturi-wasserstein-barycenters]]).
 - Each **Gromov-Wasserstein** iteration is an inner Sinkhorn solve
   ([[2018-alvarez-melis-gromov-wasserstein-alignment]]).
 - Generalizes to **unbalanced** OT by scaling against soft marginal penalties
@@ -41,6 +44,7 @@ Gromov-Wasserstein and to unbalanced problems.
 ## Related
 
 - introduces [[2013-cuturi-sinkhorn-distances]] — the entropic-OT / Sinkhorn method
+- applies [[2014-cuturi-wasserstein-barycenters]] — Sinkhorn as the inner engine for barycenter gradients
 - applies [[2018-alvarez-melis-gromov-wasserstein-alignment]] — Sinkhorn as the inner GW solver
 - extends [[2018-chizat-scaling-algorithms-unbalanced]] — unbalanced generalization of the scaling iterations
 - contrasts [[2019-sejourne-unbalanced-sinkhorn-divergences]] — debiases the entropic estimate

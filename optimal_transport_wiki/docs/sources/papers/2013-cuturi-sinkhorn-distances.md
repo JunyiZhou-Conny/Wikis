@@ -53,6 +53,7 @@ solvers and trivially GPU-parallel.
 - introduces [[entropic-regularization-sinkhorn]] — the entropic-OT / Sinkhorn scheme itself
 - background-for [[wasserstein-distance]] — a fast smoothed surrogate for the Wasserstein distance
 - applies [[monge-kantorovich-formulations]] — regularizes the Kantorovich primal
+- background-for [[2014-cuturi-wasserstein-barycenters]] — Sinkhorn reused as the inner engine for barycenters
 - background-for [[2019-peyre-computational-optimal-transport]] — the algorithmic core that monograph systematizes
 - benchmarks [[2018-alvarez-melis-gromov-wasserstein-alignment]] — used there as the inner solver for GW
 - [[Sources MOC]]
