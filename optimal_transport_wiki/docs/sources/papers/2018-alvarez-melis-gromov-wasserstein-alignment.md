@@ -63,5 +63,6 @@ translations, with no post-hoc heuristics.
 - background-for [[monge-kantorovich-formulations]] — builds on the Kantorovich coupling polytope
 - extends [[2013-cuturi-sinkhorn-distances]] — uses entropic OT as the inner solver
 - benchmarks [[2023-bunne-cellot-neural-ot]] — sibling applied-OT source (biology vs NLP)
+- contrasts [[2017-courty-optimal-transport-domain-adaptation]] — GW needs no shared cross-domain cost; OTDA does
 - [[Sources MOC]]
 - [[Optimal Transport MOC]]

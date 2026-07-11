@@ -51,5 +51,6 @@ Sinkhorn algorithm, Wasserstein barycenters, Gromov-Wasserstein, and extensions 
 - background-for [[monge-kantorovich-formulations]] — textbook treatment of primal/dual OT
 - background-for [[gromov-wasserstein-distance]] — surveys GW among OT extensions
 - background-for [[balanced-vs-unbalanced-ot]] — situates unbalanced OT within computational OT
+- background-for [[ot-domain-adaptation]] — surveys OTDA-style ML applications of computational OT
 - [[Sources MOC]]
 - [[Optimal Transport MOC]]

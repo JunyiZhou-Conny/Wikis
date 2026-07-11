@@ -40,3 +40,4 @@ objective.
 - background-for [[2019-peyre-computational-optimal-transport]] — GW among OT extensions
 - extends [[monge-kantorovich-formulations]] — a quadratic relative of the Kantorovich coupling problem
 - applies [[entropic-regularization-sinkhorn]] — uses Sinkhorn as the inner solver
+- contrasts [[ot-domain-adaptation]] — classical OTDA needs a shared feature cost; GW does not

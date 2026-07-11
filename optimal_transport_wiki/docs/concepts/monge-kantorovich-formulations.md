@@ -13,6 +13,7 @@ distilled_from:
   - "[[2018-alvarez-melis-gromov-wasserstein-alignment]]"
   - "[[2019-peyre-computational-optimal-transport]]"
   - "[[2023-korotin-neural-optimal-transport]]"
+  - "[[2017-courty-optimal-transport-domain-adaptation]]"
 ---
 
 # Monge and Kantorovich formulations of OT
@@ -45,3 +46,4 @@ map as their gradient). Knowing the primal/dual pair explains why methods look s
 - applies [[2023-korotin-neural-optimal-transport]] — maximin dual for strong/weak costs → stochastic maps
 - background-for [[2018-alvarez-melis-gromov-wasserstein-alignment]] — GW builds on the coupling polytope
 - extends [[balanced-vs-unbalanced-ot]] — unbalanced OT relaxes the Kantorovich marginal constraints
+- applies [[2017-courty-optimal-transport-domain-adaptation]] — Kantorovich plan + barycentric Monge-like map for DA
