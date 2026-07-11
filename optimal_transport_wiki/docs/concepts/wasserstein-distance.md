@@ -12,6 +12,7 @@ distilled_from:
   - "[[2023-bunne-cellot-neural-ot]]"
   - "[[2019-peyre-computational-optimal-transport]]"
   - "[[2023-korotin-neural-optimal-transport]]"
+  - "[[2017-courty-optimal-transport-domain-adaptation]]"
 ---
 
 # Wasserstein distance
@@ -40,3 +41,5 @@ as a loss/geometry in generative modeling, alignment, and single-cell trajectory
 - applies [[2023-korotin-neural-optimal-transport]] — learns W₂ / γ-weak quadratic maps and plans
 - introduces [[2019-peyre-computational-optimal-transport]] — reference definitions and properties
 - extends [[monge-kantorovich-formulations]] — the distance is the optimal value of those problems
+- applies [[2017-courty-optimal-transport-domain-adaptation]] — OTDA aligns domains under \(W_2\) geometry
+- background-for [[ot-domain-adaptation]] — Wasserstein cost is the DA alignment objective
