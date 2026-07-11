@@ -44,3 +44,4 @@ PCA variance threshold is meaningful depends entirely on whether the AE's axes a
 - background-for [[2019-rolinek-vae-pca-directions]] — why VAE latents resemble PCA directions
 - applies [[2022-pham-pca-ae]] — an AE built to keep PCA ordering nonlinearly
 - background-for [[choosing-latent-dimension]] — explains when a PCA variance cutoff is even well-defined
+- contrasts [[2022-elhage-toy-models-superposition]] — linear/PCA ceiling vs ReLU+sparsity enabling superposition beyond that capacity
