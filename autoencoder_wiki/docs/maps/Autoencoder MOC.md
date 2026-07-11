@@ -73,6 +73,7 @@ Concepts: [[choosing-latent-dimension]] · [[linear-autoencoder-pca-equivalence]
 
 *Planned "denoising / sparse autoencoders" thread — frontier interpretability use of AEs:*
 
+- [[2022-elhage-toy-models-superposition]] — Anthropic toy models of **superposition** / polysemantic neurons (Transformer Circuits 2022). Tier A.
 - [[2023-bricken-towards-monosemanticity]] — Anthropic SAE dictionary learning on LM MLP activations (Transformer Circuits 2023). Tier A.
 
 Concepts: [[sparse-autoencoder-dictionary-learning]] · [[monosemantic-features-vs-polysemantic-neurons]]

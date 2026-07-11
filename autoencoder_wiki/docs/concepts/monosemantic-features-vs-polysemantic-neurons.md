@@ -10,6 +10,7 @@ tags:
   - method/sparse-autoencoder
 distilled_from:
   - "[[2023-bricken-towards-monosemanticity]]"
+  - "[[2022-elhage-toy-models-superposition]]"
   - "[[2006-hinton-deep-autoencoder]]"
 ---
 
@@ -23,8 +24,9 @@ a direction (often a sparse dictionary atom) that tracks one coherent concept. W
 
 Autoencoders and MLPs give you a coordinate basis (hidden units / code dims), but that basis need
 not align with human-meaningful factors ([[2006-hinton-deep-autoencoder]] gives useful codes, not
-guaranteed monosemantic axes). Interpretability work therefore *re-decomposes* activations into
-features ([[2023-bricken-towards-monosemanticity]]).
+guaranteed monosemantic axes). Toy models show when monosemantic vs polysemantic neurons form
+([[2022-elhage-toy-models-superposition]]); interpretability work then *re-decomposes*
+activations into features ([[2023-bricken-towards-monosemanticity]]).
 
 ## Details
 
@@ -40,6 +42,7 @@ features ([[2023-bricken-towards-monosemanticity]]).
 ## Related
 
 - introduces [[2023-bricken-towards-monosemanticity]] — SAEs as a practical route to monosemantic features in LM MLPs
+- introduces [[2022-elhage-toy-models-superposition]] — phase diagram and geometry for when neurons stay monosemantic vs mix features
 - background-for [[2006-hinton-deep-autoencoder]] — bottleneck codes are useful representations, not a claim of monosemantic neurons
 - applies [[sparse-autoencoder-dictionary-learning]] — the decomposition method that targets this distinction
 - contrasts [[passive-latent-dimensions]] — mixed-but-active neurons vs collapsed unused latent axes

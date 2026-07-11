@@ -67,6 +67,7 @@ neuron basis, enabling inspection, steering, and basic circuit-style analysis.
 ## Related
 
 - extends [[2006-hinton-deep-autoencoder]] — keeps AE reconstruction, but replaces the compressive bottleneck with an **overcomplete sparse** code aimed at interpretability
+- applies [[2022-elhage-toy-models-superposition]] — takes Elhage's superposition / polysemanticity toy theory into a practical SAE on a real LM MLP
 - contrasts [[2013-kingma-vae]] — deterministic L1-sparse AE on frozen activations vs probabilistic ELBO latents trained end-to-end
 - introduces [[sparse-autoencoder-dictionary-learning]] — SAE as scalable weak dictionary learning for superposition
 - introduces [[monosemantic-features-vs-polysemantic-neurons]] — features (linear directions) as the right analysis unit over neurons
