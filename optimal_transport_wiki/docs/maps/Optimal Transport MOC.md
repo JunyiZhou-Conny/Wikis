@@ -27,6 +27,7 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 
 ## Neural / large-scale OT
 
+- [[2023-shi-diffusion-schrodinger-bridge-matching]] — DSBM: Iterative Markovian Fitting for Schrödinger bridges / dynamic EOT (NeurIPS 2023). Tier A.
 - [[2023-korotin-neural-optimal-transport]] — Neural OT: maximin dual solver for strong/weak costs and stochastic plans (ICLR 2023 spotlight). Tier A.
 - [[2023-bunne-cellot-neural-ot]] — CellOT: neural OT via input-convex nets for single-cell perturbations (Nature Methods 2023). Tier A.
 - [[2019-yang-scalable-unbalanced-ot-gans]] — unbalanced OT via a GAN-style transport map + scaling factor (ICLR 2019). Tier A.
@@ -46,6 +47,7 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 - [[balanced-vs-unbalanced-ot]]
 - [[wasserstein-fisher-rao-metric]]
 - [[neural-optimal-transport]]
+- [[schrodinger-bridge]]
 
 ## All sources
 
