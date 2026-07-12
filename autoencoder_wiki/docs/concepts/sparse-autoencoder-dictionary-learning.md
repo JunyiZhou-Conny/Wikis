@@ -44,3 +44,5 @@ interpretability of language-model MLPs ([[2023-bricken-towards-monosemanticity]
 - extends [[2006-hinton-deep-autoencoder]] — same reconstructive AE skeleton, opposite capacity regime (overcomplete + sparse vs bottleneck)
 - background-for [[monosemantic-features-vs-polysemantic-neurons]] — the tool used to obtain monosemantic units
 - contrasts [[linear-autoencoder-pca-equivalence]] — ordered PCA/LAE axes vs overcomplete sparse dictionary atoms
+- contrasts [[2008-vincent-denoising-autoencoders]] — overcomplete codes via L1 sparsity vs via input corruption
+- contrasts [[denoising-autoencoder-corruption-robustness]] — dictionary-learning SAE vs corruption-robust DAE
