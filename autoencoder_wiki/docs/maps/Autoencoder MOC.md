@@ -13,6 +13,7 @@ Single-cell VAE / autoencoder topic index.
 ### Foundations
 
 - [[2006-hinton-deep-autoencoder]] — the original **deep autoencoder** (encoder/decoder/bottleneck, beats PCA). Tier A. Root of the general-AE thread.
+- [[2008-vincent-denoising-autoencoders]] — **denoising autoencoders** (reconstruct clean x from corrupted x̃; stackable SdA init). Tier A. Canonical DAE / robust-representation root.
 - [[2013-kingma-vae]] — the original **VAE** (reparameterization trick, ELBO). Tier A. Root of the VAE thread below.
 
 ### Perturbation prediction stack (refs 12–14)
@@ -66,21 +67,22 @@ Concepts: [[choosing-latent-dimension]] · [[linear-autoencoder-pca-equivalence]
 - [[hyperparameter-sensitivity-vae-scrna]]
 - [[probabilistic-vae-vs-count-autoencoder]]
 - [[latent-arithmetic-vs-global-shift]]
+- [[denoising-autoencoder-corruption-robustness]]
 - [[sparse-autoencoder-dictionary-learning]]
 - [[monosemantic-features-vs-polysemantic-neurons]]
 
-### Sparse autoencoders & monosemantic features (2026-07-10)
+### Denoising & sparse autoencoders
 
-*Planned "denoising / sparse autoencoders" thread — frontier interpretability use of AEs:*
+*Classic DAE root + frontier sparse-AE / monosemanticity thread:*
 
+- [[2008-vincent-denoising-autoencoders]] — Vincent et al. ICML 2008: corruption+denoising criterion; stacked DAEs for deep init. Tier A.
 - [[2023-bricken-towards-monosemanticity]] — Anthropic SAE dictionary learning on LM MLP activations (Transformer Circuits 2023). Tier A.
 
-Concepts: [[sparse-autoencoder-dictionary-learning]] · [[monosemantic-features-vs-polysemantic-neurons]]
+Concepts: [[denoising-autoencoder-corruption-robustness]] · [[sparse-autoencoder-dictionary-learning]] · [[monosemantic-features-vs-polysemantic-neurons]]
 
 ## General topics (planned)
 
 - Vanilla autoencoder (encoder / decoder / bottleneck)
-- Denoising autoencoders (sparse AE thread started above)
 - Applications beyond scRNA
 
 ## All concepts

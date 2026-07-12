@@ -51,4 +51,6 @@ Eraslan et al., *Nature Communications* 2019.
 - introduces [[probabilistic-vae-vs-count-autoencoder]] — defines the deterministic count-AE side of that split
 - introduces [[autoencoder-hidden-layer-width-scrna]] — its 64-32-64 default anchors the width discussion
 - contrasts [[2018-lopez-scvi]] — count autoencoder (denoising) vs full VAE (latent inference)
+- applies [[2008-vincent-denoising-autoencoders]] — same reconstruct-clean-from-noise spirit; DCA's "noise" is biological count sparsity with a ZINB/NB loss
+- applies [[denoising-autoencoder-corruption-robustness]] — domain-specific instance of DAE-style denoising
 - [[Sources MOC]]

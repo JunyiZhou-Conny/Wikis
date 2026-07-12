@@ -71,5 +71,6 @@ neuron basis, enabling inspection, steering, and basic circuit-style analysis.
 - introduces [[sparse-autoencoder-dictionary-learning]] — SAE as scalable weak dictionary learning for superposition
 - introduces [[monosemantic-features-vs-polysemantic-neurons]] — features (linear directions) as the right analysis unit over neurons
 - contrasts [[passive-latent-dimensions]] — SAE L1 sparsity + dead-feature resampling vs VAE posterior collapse as two different "unused axis" stories
+- contrasts [[2008-vincent-denoising-autoencoders]] — overcomplete sparse dictionary on frozen activations vs stacked input-corruption DAEs for deep init
 - [[Sources MOC]]
 - [[Autoencoder MOC]]

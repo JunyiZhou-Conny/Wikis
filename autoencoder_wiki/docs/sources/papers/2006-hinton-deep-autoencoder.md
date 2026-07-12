@@ -52,6 +52,8 @@ reconstruction and downstream visualization/classification.
 
 ## Related
 
+- background-for [[2008-vincent-denoising-autoencoders]] — Vincent stacks AEs in the same pretraining lineage, but swaps clean reconstruction for corruption+denoising
+
 <Typed links — this is the general-AE root the VAE thread and DR work descend from.>
 
 - background-for [[2013-kingma-vae]] — the VAE adds a probabilistic latent + ELBO on top of this encoder/decoder/bottleneck idea
@@ -61,5 +63,7 @@ reconstruction and downstream visualization/classification.
 - background-for [[2023-bricken-towards-monosemanticity]] — SAE reuses AE reconstruction but targets overcomplete sparse features, not a compressive bottleneck
 - background-for [[sparse-autoencoder-dictionary-learning]] — the reconstructive AE skeleton SAEs inherit and invert (expand + sparsify)
 - background-for [[monosemantic-features-vs-polysemantic-neurons]] — useful codes ≠ monosemantic neuron axes
+- background-for [[2008-vincent-denoising-autoencoders]] — Vincent stacks AEs in the same pretraining lineage, but swaps clean reconstruction for corruption+denoising
+- background-for [[denoising-autoencoder-corruption-robustness]] — clean AE reconstruction is the baseline DAEs modify
 - [[Sources MOC]]
 - [[Autoencoder MOC]]
