@@ -13,6 +13,7 @@ distilled_from:
   - "[[2018-alvarez-melis-gromov-wasserstein-alignment]]"
   - "[[2018-chizat-scaling-algorithms-unbalanced]]"
   - "[[2019-sejourne-unbalanced-sinkhorn-divergences]]"
+  - "[[2023-shi-diffusion-schrodinger-bridge-matching]]"
 ---
 
 # Entropic regularization & the Sinkhorn algorithm
@@ -37,6 +38,9 @@ Gromov-Wasserstein and to unbalanced problems.
   ([[2018-chizat-scaling-algorithms-unbalanced]]).
 - Entropic OT is **biased** (nonzero for equal inputs); **Sinkhorn divergences** debias it
   ([[2019-sejourne-unbalanced-sinkhorn-divergences]]).
+- On path space, the same entropy-regularized coupling is the **static Schrödinger bridge**;
+  DSBM lifts it to a diffusion ([[2023-shi-diffusion-schrodinger-bridge-matching]],
+  [[schrodinger-bridge]]).
 
 ## Related
 
@@ -44,3 +48,4 @@ Gromov-Wasserstein and to unbalanced problems.
 - applies [[2018-alvarez-melis-gromov-wasserstein-alignment]] — Sinkhorn as the inner GW solver
 - extends [[2018-chizat-scaling-algorithms-unbalanced]] — unbalanced generalization of the scaling iterations
 - contrasts [[2019-sejourne-unbalanced-sinkhorn-divergences]] — debiases the entropic estimate
+- extends [[2023-shi-diffusion-schrodinger-bridge-matching]] — dynamic / diffusion form of EOT (Schrödinger bridge)

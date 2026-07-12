@@ -51,5 +51,7 @@ Sinkhorn algorithm, Wasserstein barycenters, Gromov-Wasserstein, and extensions 
 - background-for [[monge-kantorovich-formulations]] — textbook treatment of primal/dual OT
 - background-for [[gromov-wasserstein-distance]] — surveys GW among OT extensions
 - background-for [[balanced-vs-unbalanced-ot]] — situates unbalanced OT within computational OT
+- background-for [[schrodinger-bridge]] — surveys entropic / dynamic OT that SBs instantiate
+- background-for [[2023-shi-diffusion-schrodinger-bridge-matching]] — EOT monograph backdrop for DSBM
 - [[Sources MOC]]
 - [[Optimal Transport MOC]]

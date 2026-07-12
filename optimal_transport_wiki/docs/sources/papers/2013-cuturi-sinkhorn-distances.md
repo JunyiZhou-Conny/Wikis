@@ -55,5 +55,7 @@ solvers and trivially GPU-parallel.
 - applies [[monge-kantorovich-formulations]] — regularizes the Kantorovich primal
 - background-for [[2019-peyre-computational-optimal-transport]] — the algorithmic core that monograph systematizes
 - benchmarks [[2018-alvarez-melis-gromov-wasserstein-alignment]] — used there as the inner solver for GW
+- background-for [[2023-shi-diffusion-schrodinger-bridge-matching]] — static EOT / Sinkhorn–IPF dual to dynamic Schrödinger bridges
+- background-for [[schrodinger-bridge]] — discrete entropic coupling that the SB dynamizes
 - [[Sources MOC]]
 - [[Optimal Transport MOC]]

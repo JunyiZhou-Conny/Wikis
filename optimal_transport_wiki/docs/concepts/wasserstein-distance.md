@@ -12,6 +12,7 @@ distilled_from:
   - "[[2023-bunne-cellot-neural-ot]]"
   - "[[2019-peyre-computational-optimal-transport]]"
   - "[[2023-korotin-neural-optimal-transport]]"
+  - "[[2023-shi-diffusion-schrodinger-bridge-matching]]"
 ---
 
 # Wasserstein distance
@@ -32,6 +33,9 @@ as a loss/geometry in generative modeling, alignment, and single-cell trajectory
 - Computing it exactly is an LP; entropic regularization gives the fast **Sinkhorn distance**
   surrogate ([[2013-cuturi-sinkhorn-distances]]).
 - Full definitions, metric properties, and geodesics: [[2019-peyre-computational-optimal-transport]].
+- Dynamic / entropic lifts: Schrödinger bridges recover entropy-regularized dynamic OT and are
+  evaluated with \(\mathbb{W}_2\) sample metrics ([[2023-shi-diffusion-schrodinger-bridge-matching]],
+  [[schrodinger-bridge]]).
 
 ## Related
 
@@ -40,3 +44,4 @@ as a loss/geometry in generative modeling, alignment, and single-cell trajectory
 - applies [[2023-korotin-neural-optimal-transport]] — learns W₂ / γ-weak quadratic maps and plans
 - introduces [[2019-peyre-computational-optimal-transport]] — reference definitions and properties
 - extends [[monge-kantorovich-formulations]] — the distance is the optimal value of those problems
+- background-for [[2023-shi-diffusion-schrodinger-bridge-matching]] — SB path energy / \(\mathbb{W}_2\) as dynamic OT geometry
