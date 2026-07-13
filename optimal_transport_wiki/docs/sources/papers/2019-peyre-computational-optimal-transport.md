@@ -51,5 +51,7 @@ Sinkhorn algorithm, Wasserstein barycenters, Gromov-Wasserstein, and extensions 
 - background-for [[monge-kantorovich-formulations]] — textbook treatment of primal/dual OT
 - background-for [[gromov-wasserstein-distance]] — surveys GW among OT extensions
 - background-for [[balanced-vs-unbalanced-ot]] — situates unbalanced OT within computational OT
+- extends [[2000-benamou-dynamic-formulation]] — surveys dynamic OT built on the Benamou–Brenier action
+- background-for [[benamou-brenier-formulation]] — monograph treatment of the dynamic formulation
 - [[Sources MOC]]
 - [[Optimal Transport MOC]]

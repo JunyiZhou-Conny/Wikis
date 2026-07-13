@@ -12,6 +12,7 @@ distilled_from:
   - "[[2023-bunne-cellot-neural-ot]]"
   - "[[2019-peyre-computational-optimal-transport]]"
   - "[[2023-korotin-neural-optimal-transport]]"
+  - "[[2000-benamou-dynamic-formulation]]"
 ---
 
 # Wasserstein distance
@@ -32,6 +33,8 @@ as a loss/geometry in generative modeling, alignment, and single-cell trajectory
 - Computing it exactly is an LP; entropic regularization gives the fast **Sinkhorn distance**
   surrogate ([[2013-cuturi-sinkhorn-distances]]).
 - Full definitions, metric properties, and geodesics: [[2019-peyre-computational-optimal-transport]].
+- Dynamic / geodesic view: $W_2^2$ as least kinetic energy along continuity-equation paths
+  ([[2000-benamou-dynamic-formulation]], [[benamou-brenier-formulation]]).
 
 ## Related
 
@@ -40,3 +43,5 @@ as a loss/geometry in generative modeling, alignment, and single-cell trajectory
 - applies [[2023-korotin-neural-optimal-transport]] — learns W₂ / γ-weak quadratic maps and plans
 - introduces [[2019-peyre-computational-optimal-transport]] — reference definitions and properties
 - extends [[monge-kantorovich-formulations]] — the distance is the optimal value of those problems
+- applies [[2000-benamou-dynamic-formulation]] — equates $W_2^2$ to a space–time kinetic-energy action
+- extends [[benamou-brenier-formulation]] — the distance as geodesic length in density–velocity space
