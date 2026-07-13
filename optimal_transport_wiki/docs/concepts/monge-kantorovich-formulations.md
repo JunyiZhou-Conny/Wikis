@@ -13,6 +13,7 @@ distilled_from:
   - "[[2018-alvarez-melis-gromov-wasserstein-alignment]]"
   - "[[2019-peyre-computational-optimal-transport]]"
   - "[[2023-korotin-neural-optimal-transport]]"
+  - "[[2000-benamou-dynamic-formulation]]"
 ---
 
 # Monge and Kantorovich formulations of OT
@@ -37,6 +38,9 @@ map as their gradient). Knowing the primal/dual pair explains why methods look s
   extends the dual via a \(C\)-transform over conditional measures, enabling stochastic plans
   ([[2023-korotin-neural-optimal-transport]]).
 - The monograph [[2019-peyre-computational-optimal-transport]] is the reference treatment.
+- **Dynamic reformulation:** Benamou–Brenier rewrite the $L^2$ problem as a continuity-constrained
+  kinetic-energy action, avoiding direct Monge–Ampère solves ([[2000-benamou-dynamic-formulation]],
+  [[benamou-brenier-formulation]]).
 
 ## Related
 
@@ -45,3 +49,5 @@ map as their gradient). Knowing the primal/dual pair explains why methods look s
 - applies [[2023-korotin-neural-optimal-transport]] — maximin dual for strong/weak costs → stochastic maps
 - background-for [[2018-alvarez-melis-gromov-wasserstein-alignment]] — GW builds on the coupling polytope
 - extends [[balanced-vs-unbalanced-ot]] — unbalanced OT relaxes the Kantorovich marginal constraints
+- applies [[2000-benamou-dynamic-formulation]] — fluid-mechanics path to the same $L^2$ Monge–Kantorovich problem
+- extends [[benamou-brenier-formulation]] — dynamic continuity-equation equivalent of the static formulations

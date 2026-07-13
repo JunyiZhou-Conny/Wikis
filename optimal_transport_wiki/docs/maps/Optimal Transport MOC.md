@@ -18,6 +18,7 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 
 ## Foundations
 
+- [[2000-benamou-dynamic-formulation]] — dynamic / fluid-mechanics formulation of $W_2$ + ALG2 solver (Numerische Mathematik 2000). Tier A. Canonical Benamou–Brenier paper.
 - [[2013-cuturi-sinkhorn-distances]] — entropic regularization + Sinkhorn scaling (NeurIPS 2013). Tier A. The computational root of modern OT.
 - [[2019-peyre-computational-optimal-transport]] — the standard computational-OT monograph (Peyré & Cuturi). Tier A.
 
@@ -41,6 +42,7 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 
 - [[monge-kantorovich-formulations]]
 - [[wasserstein-distance]]
+- [[benamou-brenier-formulation]]
 - [[entropic-regularization-sinkhorn]]
 - [[gromov-wasserstein-distance]]
 - [[balanced-vs-unbalanced-ot]]

@@ -51,6 +51,8 @@ contribution. The **Wasserstein-Fisher-Rao** (WFR) metric is a distinguished mem
 - introduces [[balanced-vs-unbalanced-ot]] — defines the unbalanced problem via marginal relaxation
 - introduces [[wasserstein-fisher-rao-metric]] — defines this distinguished metric as a special member
 - extends [[monge-kantorovich-formulations]] — generalizes the Kantorovich coupling to unequal mass
+- extends [[2000-benamou-dynamic-formulation]] — lifts the Benamou–Brenier dynamic action to unequal-mass measures
+- extends [[benamou-brenier-formulation]] — dynamic unbalanced OT is the continuity-equation template plus growth
 - background-for [[2018-chizat-scaling-algorithms-unbalanced]] — the theory its scaling algorithms solve
 - background-for [[2019-sejourne-unbalanced-sinkhorn-divergences]] — formal basis for unbalanced Sinkhorn divergences
 - [[Sources MOC]]

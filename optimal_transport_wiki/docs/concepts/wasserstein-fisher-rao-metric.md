@@ -10,6 +10,7 @@ tags:
 distilled_from:
   - "[[2018-chizat-unbalanced-ot-formulations]]"
   - "[[2018-chizat-scaling-algorithms-unbalanced]]"
+  - "[[2000-benamou-dynamic-formulation]]"
 ---
 
 # Wasserstein-Fisher-Rao metric
@@ -43,3 +44,5 @@ when supports or masses differ.
 - applies [[2018-chizat-scaling-algorithms-unbalanced]] — its scaling iterations compute WFR-type unbalanced transport
 - applies [[balanced-vs-unbalanced-ot]] — WFR is the canonical metric realizing the unbalanced (mass-changing) regime
 - extends [[wasserstein-distance]] — generalizes W₂ with a Fisher-Rao growth term for unequal mass
+- extends [[benamou-brenier-formulation]] — adds Fisher–Rao reaction to the Benamou–Brenier continuity-equation action
+- extends [[2000-benamou-dynamic-formulation]] — unbalanced dynamic geodesics generalize that balanced kinetic-energy problem
