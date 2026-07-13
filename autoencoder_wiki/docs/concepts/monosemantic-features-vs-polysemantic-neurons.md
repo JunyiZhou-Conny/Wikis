@@ -10,6 +10,7 @@ tags:
   - method/sparse-autoencoder
 distilled_from:
   - "[[2023-bricken-towards-monosemanticity]]"
+  - "[[2024-cunningham-sae-interpretable-features]]"
   - "[[2006-hinton-deep-autoencoder]]"
 ---
 
@@ -24,7 +25,7 @@ a direction (often a sparse dictionary atom) that tracks one coherent concept. W
 Autoencoders and MLPs give you a coordinate basis (hidden units / code dims), but that basis need
 not align with human-meaningful factors ([[2006-hinton-deep-autoencoder]] gives useful codes, not
 guaranteed monosemantic axes). Interpretability work therefore *re-decomposes* activations into
-features ([[2023-bricken-towards-monosemanticity]]).
+features ([[2023-bricken-towards-monosemanticity]], [[2024-cunningham-sae-interpretable-features]]).
 
 ## Details
 
@@ -33,13 +34,15 @@ features ([[2023-bricken-towards-monosemanticity]]).
 - **Superposition hypothesis:** more useful sparse features than neurons → features stored as
   overlapping linear combinations; sparsity at inference lets the net (and an SAE) disentangle them.
 - **Evidence a feature is "real":** consistent activating examples, causal steering when pinned,
-  presence across models (universality), and absence from any single neuron's top examples.
+  presence across models (universality), absence from any single neuron's top examples, and — at
+  scale — higher autointerpretability / tighter causal patching than PCA or the neuron basis.
 - **Not the same as VAE "passive dims":** unused VAE axes collapse to the prior
   ([[passive-latent-dimensions]]); polysemantic neurons are *used* but *mixed*.
 
 ## Related
 
 - introduces [[2023-bricken-towards-monosemanticity]] — SAEs as a practical route to monosemantic features in LM MLPs
+- introduces [[2024-cunningham-sae-interpretable-features]] — autointerp + IOI patching evidence that SAE features beat PCA/neuron baselines
 - background-for [[2006-hinton-deep-autoencoder]] — bottleneck codes are useful representations, not a claim of monosemantic neurons
 - applies [[sparse-autoencoder-dictionary-learning]] — the decomposition method that targets this distinction
 - contrasts [[passive-latent-dimensions]] — mixed-but-active neurons vs collapsed unused latent axes

@@ -10,6 +10,7 @@ tags:
   - method/sparse-autoencoder
 distilled_from:
   - "[[2023-bricken-towards-monosemanticity]]"
+  - "[[2024-cunningham-sae-interpretable-features]]"
   - "[[2006-hinton-deep-autoencoder]]"
 ---
 
@@ -24,7 +25,8 @@ reconstruct activations as a sparse sum of learned feature directions.
 Classic deep autoencoders compress through a bottleneck ([[2006-hinton-deep-autoencoder]]). SAEs
 flip that goal: expand the code and force sparsity so each active unit is a candidate
 **feature**, not a dense compressed coordinate. That is the workhorse for modern mechanistic
-interpretability of language-model MLPs ([[2023-bricken-towards-monosemanticity]]).
+interpretability of language-model activations ([[2023-bricken-towards-monosemanticity]],
+[[2024-cunningham-sae-interpretable-features]]).
 
 ## Details
 
@@ -35,12 +37,15 @@ interpretability of language-model MLPs ([[2023-bricken-towards-monosemanticity]
   unfolded into more features than neurons.
 - **Training practicalities:** large activation datasets; **dead-feature resampling** when units
   stop firing; monitor live-feature count, density, and reconstruction — not a single loss.
+- **Architecture variants:** untied encoder/decoder with resampling (Bricken) vs tied,
+  row-normalized dictionaries (Cunningham); both trade reconstruction against sparsity via α / L1.
 - **Resolution knob:** wider SAEs **split** coarse features into finer families rather than just
   adding noise.
 
 ## Related
 
 - introduces [[2023-bricken-towards-monosemanticity]] — detailed SAE success on a 512-neuron MLP LM
+- introduces [[2024-cunningham-sae-interpretable-features]] — tied ReLU SAEs on Pythia residual streams with autointerp + IOI patching
 - extends [[2006-hinton-deep-autoencoder]] — same reconstructive AE skeleton, opposite capacity regime (overcomplete + sparse vs bottleneck)
 - background-for [[monosemantic-features-vs-polysemantic-neurons]] — the tool used to obtain monosemantic units
 - contrasts [[linear-autoencoder-pca-equivalence]] — ordered PCA/LAE axes vs overcomplete sparse dictionary atoms
