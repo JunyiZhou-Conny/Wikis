@@ -68,6 +68,7 @@ neuron basis, enabling inspection, steering, and basic circuit-style analysis.
 
 - extends [[2006-hinton-deep-autoencoder]] — keeps AE reconstruction, but replaces the compressive bottleneck with an **overcomplete sparse** code aimed at interpretability
 - contrasts [[2013-kingma-vae]] — deterministic L1-sparse AE on frozen activations vs probabilistic ELBO latents trained end-to-end
+- benchmarks [[2024-cunningham-sae-interpretable-features]] — concurrent SAE dictionary-learning agenda; MLP case studies vs residual-stream autointerp + IOI patching
 - introduces [[sparse-autoencoder-dictionary-learning]] — SAE as scalable weak dictionary learning for superposition
 - introduces [[monosemantic-features-vs-polysemantic-neurons]] — features (linear directions) as the right analysis unit over neurons
 - contrasts [[passive-latent-dimensions]] — SAE L1 sparsity + dead-feature resampling vs VAE posterior collapse as two different "unused axis" stories
