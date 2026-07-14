@@ -12,6 +12,7 @@ distilled_from:
   - "[[2025-saha-ard-vae]]"
   - "[[2022-bonheme-fondue]]"
   - "[[2026-ritschel-vae-knowledge-compression]]"
+  - "[[2017-higgins-beta-vae]]"
 ---
 
 # Passive latent dimensions & posterior collapse
@@ -48,5 +49,7 @@ data, not the model).
 - applies [[2025-saha-ard-vae]] — ARD prior actively collapses passive axes and scores relevance
 - benchmarks [[2026-ritschel-vae-knowledge-compression]] — per-dimension KL + stability plateau evidence
 - background-for [[choosing-latent-dimension]] — passive-dimension signals as a way to pick/verify latent size
+- applies [[2017-higgins-beta-vae]] — high-β capacity limits leave uninformative units near the prior (low KL)
+- applies [[beta-vae-weighted-kl-disentanglement]] — unused-axis collapse as a side effect of the β bottleneck
 - contrasts [[intrinsic-dimension-latent-sizing]] — model-side collapse vs data-side degrees of freedom
 - contrasts [[monosemantic-features-vs-polysemantic-neurons]] — collapsed unused VAE axes vs mixed-but-active polysemantic neurons
