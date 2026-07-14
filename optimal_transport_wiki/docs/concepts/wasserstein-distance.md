@@ -12,6 +12,7 @@ distilled_from:
   - "[[2023-bunne-cellot-neural-ot]]"
   - "[[2019-peyre-computational-optimal-transport]]"
   - "[[2023-korotin-neural-optimal-transport]]"
+  - "[[2024-tong-ot-cfm-minibatch]]"
 ---
 
 # Wasserstein distance
@@ -31,6 +32,8 @@ as a loss/geometry in generative modeling, alignment, and single-cell trajectory
   ([[2023-bunne-cellot-neural-ot]], [[2023-korotin-neural-optimal-transport]]).
 - Computing it exactly is an LP; entropic regularization gives the fast **Sinkhorn distance**
   surrogate ([[2013-cuturi-sinkhorn-distances]]).
+- Dynamic view: path energy of a probability flow is compared to \(W_2^2\) when assessing
+  dynamic-OT fidelity ([[2024-tong-ot-cfm-minibatch]]).
 - Full definitions, metric properties, and geodesics: [[2019-peyre-computational-optimal-transport]].
 
 ## Related
@@ -38,5 +41,6 @@ as a loss/geometry in generative modeling, alignment, and single-cell trajectory
 - background-for [[2013-cuturi-sinkhorn-distances]] — the smoothed, fast approximation
 - applies [[2023-bunne-cellot-neural-ot]] — optimizes the W₂ dual with neural potentials
 - applies [[2023-korotin-neural-optimal-transport]] — learns W₂ / γ-weak quadratic maps and plans
+- applies [[2024-tong-ot-cfm-minibatch]] — static \(W_2\) plans condition OT-CFM; path energy vs \(W_2^2\)
 - introduces [[2019-peyre-computational-optimal-transport]] — reference definitions and properties
 - extends [[monge-kantorovich-formulations]] — the distance is the optimal value of those problems
