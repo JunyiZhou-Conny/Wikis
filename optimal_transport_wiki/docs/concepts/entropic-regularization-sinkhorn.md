@@ -13,6 +13,7 @@ distilled_from:
   - "[[2018-alvarez-melis-gromov-wasserstein-alignment]]"
   - "[[2018-chizat-scaling-algorithms-unbalanced]]"
   - "[[2019-sejourne-unbalanced-sinkhorn-divergences]]"
+  - "[[2024-tong-ot-cfm-minibatch]]"
 ---
 
 # Entropic regularization & the Sinkhorn algorithm
@@ -25,7 +26,8 @@ algorithm.
 
 This is the computational engine of modern OT: it turns an expensive LP into a handful of
 matrix–vector products, is GPU-friendly and differentiable, and generalizes cleanly to
-Gromov-Wasserstein and to unbalanced problems.
+Gromov-Wasserstein, unbalanced problems, and as the **coupling conditioner** for entropic
+flow-matching / Schrödinger-bridge objectives.
 
 ## Details
 
@@ -37,6 +39,8 @@ Gromov-Wasserstein and to unbalanced problems.
   ([[2018-chizat-scaling-algorithms-unbalanced]]).
 - Entropic OT is **biased** (nonzero for equal inputs); **Sinkhorn divergences** debias it
   ([[2019-sejourne-unbalanced-sinkhorn-divergences]]).
+- **SB-CFM** samples from an entropy-regularized plan \(\pi_{2\sigma^2}\) to match Schrödinger-bridge
+  flows ([[2024-tong-ot-cfm-minibatch]]).
 
 ## Related
 
@@ -44,3 +48,4 @@ Gromov-Wasserstein and to unbalanced problems.
 - applies [[2018-alvarez-melis-gromov-wasserstein-alignment]] — Sinkhorn as the inner GW solver
 - extends [[2018-chizat-scaling-algorithms-unbalanced]] — unbalanced generalization of the scaling iterations
 - contrasts [[2019-sejourne-unbalanced-sinkhorn-divergences]] — debiases the entropic estimate
+- applies [[2024-tong-ot-cfm-minibatch]] — entropic / mini-batch Sinkhorn plans condition SB-CFM and OT-CFM
