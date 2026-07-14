@@ -43,3 +43,5 @@ features ([[2023-bricken-towards-monosemanticity]]).
 - background-for [[2006-hinton-deep-autoencoder]] — bottleneck codes are useful representations, not a claim of monosemantic neurons
 - applies [[sparse-autoencoder-dictionary-learning]] — the decomposition method that targets this distinction
 - contrasts [[passive-latent-dimensions]] — mixed-but-active neurons vs collapsed unused latent axes
+- contrasts [[2017-higgins-beta-vae]] — post-hoc SAE features for superposition vs end-to-end β-VAE factor latents
+- contrasts [[beta-vae-weighted-kl-disentanglement]] — monosemantic dictionary atoms vs β-weighted generative-factor codes

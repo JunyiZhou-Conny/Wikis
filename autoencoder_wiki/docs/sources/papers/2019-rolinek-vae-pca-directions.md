@@ -61,5 +61,7 @@ directions of the data, collapsing to PCA in the linear case.
 - background-for [[choosing-latent-dimension]] — the "VAE ≈ local PCA" result people cite when proposing PCA-style latent sizing
 - introduces [[linear-autoencoder-pca-equivalence]] — the linear-case collapse of VAE/AE onto PCA directions
 - benchmarks [[2018-way-tybalt]] — sibling VAE source in the vault where latent structure/tuning matters
+- extends [[2017-higgins-beta-vae]] — explains the diagonal-posterior / sampling mechanism that β-VAE inherits and why extra independence pressure helps
+- applies [[beta-vae-weighted-kl-disentanglement]] — situates β-/disentanglement variants as explicit fixes beyond accidental PCA alignment
 - [[Sources MOC]]
 - [[Autoencoder MOC]]
