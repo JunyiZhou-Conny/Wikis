@@ -71,5 +71,7 @@ neuron basis, enabling inspection, steering, and basic circuit-style analysis.
 - introduces [[sparse-autoencoder-dictionary-learning]] — SAE as scalable weak dictionary learning for superposition
 - introduces [[monosemantic-features-vs-polysemantic-neurons]] — features (linear directions) as the right analysis unit over neurons
 - contrasts [[passive-latent-dimensions]] — SAE L1 sparsity + dead-feature resampling vs VAE posterior collapse as two different "unused axis" stories
+- background-for [[2024-templeton-scaling-monosemanticity]] — toy one-layer SAE success that Scaling Monosemanticity lifts to Claude 3 Sonnet
+- background-for [[sae-scaling-laws]] — expansion-factor sweeps before compute-optimal width/steps allocation
 - [[Sources MOC]]
 - [[Autoencoder MOC]]
