@@ -10,6 +10,7 @@ tags:
   - method/sparse-autoencoder
 distilled_from:
   - "[[2023-bricken-towards-monosemanticity]]"
+  - "[[2024-templeton-scaling-monosemanticity]]"
   - "[[2006-hinton-deep-autoencoder]]"
 ---
 
@@ -24,7 +25,9 @@ reconstruct activations as a sparse sum of learned feature directions.
 Classic deep autoencoders compress through a bottleneck ([[2006-hinton-deep-autoencoder]]). SAEs
 flip that goal: expand the code and force sparsity so each active unit is a candidate
 **feature**, not a dense compressed coordinate. That is the workhorse for modern mechanistic
-interpretability of language-model MLPs ([[2023-bricken-towards-monosemanticity]]).
+interpretability of language-model MLPs ([[2023-bricken-towards-monosemanticity]]) and, at
+million-feature scale, residual streams of production LMs
+([[2024-templeton-scaling-monosemanticity]]).
 
 ## Details
 
@@ -41,6 +44,8 @@ interpretability of language-model MLPs ([[2023-bricken-towards-monosemanticity]
 ## Related
 
 - introduces [[2023-bricken-towards-monosemanticity]] — detailed SAE success on a 512-neuron MLP LM
+- applies [[2024-templeton-scaling-monosemanticity]] — same weak dictionary-learning SAE, scaled to ~34M features on Claude 3 Sonnet
 - extends [[2006-hinton-deep-autoencoder]] — same reconstructive AE skeleton, opposite capacity regime (overcomplete + sparse vs bottleneck)
 - background-for [[monosemantic-features-vs-polysemantic-neurons]] — the tool used to obtain monosemantic units
+- background-for [[sae-scaling-laws]] — width/steps become a compute-allocation problem once dictionaries hit millions of features
 - contrasts [[linear-autoencoder-pca-equivalence]] — ordered PCA/LAE axes vs overcomplete sparse dictionary atoms

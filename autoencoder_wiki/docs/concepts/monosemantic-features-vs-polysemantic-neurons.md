@@ -10,6 +10,7 @@ tags:
   - method/sparse-autoencoder
 distilled_from:
   - "[[2023-bricken-towards-monosemanticity]]"
+  - "[[2024-templeton-scaling-monosemanticity]]"
   - "[[2006-hinton-deep-autoencoder]]"
 ---
 
@@ -24,7 +25,8 @@ a direction (often a sparse dictionary atom) that tracks one coherent concept. W
 Autoencoders and MLPs give you a coordinate basis (hidden units / code dims), but that basis need
 not align with human-meaningful factors ([[2006-hinton-deep-autoencoder]] gives useful codes, not
 guaranteed monosemantic axes). Interpretability work therefore *re-decomposes* activations into
-features ([[2023-bricken-towards-monosemanticity]]).
+features ([[2023-bricken-towards-monosemanticity]]; scaled to Claude 3 Sonnet in
+[[2024-templeton-scaling-monosemanticity]]).
 
 ## Details
 
@@ -40,6 +42,8 @@ features ([[2023-bricken-towards-monosemanticity]]).
 ## Related
 
 - introduces [[2023-bricken-towards-monosemanticity]] — SAEs as a practical route to monosemantic features in LM MLPs
+- applies [[2024-templeton-scaling-monosemanticity]] — monosemantic (incl. safety-relevant) features recovered in a production LM residual stream
 - background-for [[2006-hinton-deep-autoencoder]] — bottleneck codes are useful representations, not a claim of monosemantic neurons
 - applies [[sparse-autoencoder-dictionary-learning]] — the decomposition method that targets this distinction
+- background-for [[sae-scaling-laws]] — larger compute-optimal dictionaries resolve rarer / finer monosemantic features
 - contrasts [[passive-latent-dimensions]] — mixed-but-active neurons vs collapsed unused latent axes

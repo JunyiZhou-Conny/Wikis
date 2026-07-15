@@ -68,14 +68,16 @@ Concepts: [[choosing-latent-dimension]] · [[linear-autoencoder-pca-equivalence]
 - [[latent-arithmetic-vs-global-shift]]
 - [[sparse-autoencoder-dictionary-learning]]
 - [[monosemantic-features-vs-polysemantic-neurons]]
+- [[sae-scaling-laws]]
 
 ### Sparse autoencoders & monosemantic features (2026-07-10)
 
 *Planned "denoising / sparse autoencoders" thread — frontier interpretability use of AEs:*
 
 - [[2023-bricken-towards-monosemanticity]] — Anthropic SAE dictionary learning on LM MLP activations (Transformer Circuits 2023). Tier A.
+- [[2024-templeton-scaling-monosemanticity]] — scales SAEs to Claude 3 Sonnet (up to ~34M features) with compute scaling laws (Transformer Circuits 2024). Tier A.
 
-Concepts: [[sparse-autoencoder-dictionary-learning]] · [[monosemantic-features-vs-polysemantic-neurons]]
+Concepts: [[sparse-autoencoder-dictionary-learning]] · [[monosemantic-features-vs-polysemantic-neurons]] · [[sae-scaling-laws]]
 
 ## General topics (planned)
 
