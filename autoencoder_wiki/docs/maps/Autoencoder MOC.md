@@ -13,6 +13,7 @@ Single-cell VAE / autoencoder topic index.
 ### Foundations
 
 - [[2006-hinton-deep-autoencoder]] — the original **deep autoencoder** (encoder/decoder/bottleneck, beats PCA). Tier A. Root of the general-AE thread.
+- [[2011-rifai-contractive-autoencoders]] — **contractive autoencoder (CAE)**: Frobenius penalty on the encoder Jacobian for local invariance (ICML 2011). Tier A.
 - [[2013-kingma-vae]] — the original **VAE** (reparameterization trick, ELBO). Tier A. Root of the VAE thread below.
 
 ### Perturbation prediction stack (refs 12–14)
@@ -68,6 +69,7 @@ Concepts: [[choosing-latent-dimension]] · [[linear-autoencoder-pca-equivalence]
 - [[latent-arithmetic-vs-global-shift]]
 - [[sparse-autoencoder-dictionary-learning]]
 - [[monosemantic-features-vs-polysemantic-neurons]]
+- [[contractive-autoencoder-jacobian-penalty]]
 
 ### Sparse autoencoders & monosemantic features (2026-07-10)
 
@@ -77,10 +79,18 @@ Concepts: [[choosing-latent-dimension]] · [[linear-autoencoder-pca-equivalence]
 
 Concepts: [[sparse-autoencoder-dictionary-learning]] · [[monosemantic-features-vs-polysemantic-neurons]]
 
+### Contractive & robustness regularizers (2026-07-16)
+
+*Classic AE regularization thread — local invariance / robustness beyond clean reconstruction:*
+
+- [[2011-rifai-contractive-autoencoders]] — CAE Jacobian-Frobenius penalty (ICML 2011). Tier A.
+
+Concept: [[contractive-autoencoder-jacobian-penalty]]
+
 ## General topics (planned)
 
 - Vanilla autoencoder (encoder / decoder / bottleneck)
-- Denoising autoencoders (sparse AE thread started above)
+- Denoising autoencoders (contractive AE classic above; sparse AE thread started above)
 - Applications beyond scRNA
 
 ## All concepts

@@ -71,5 +71,7 @@ neuron basis, enabling inspection, steering, and basic circuit-style analysis.
 - introduces [[sparse-autoencoder-dictionary-learning]] — SAE as scalable weak dictionary learning for superposition
 - introduces [[monosemantic-features-vs-polysemantic-neurons]] — features (linear directions) as the right analysis unit over neurons
 - contrasts [[passive-latent-dimensions]] — SAE L1 sparsity + dead-feature resampling vs VAE posterior collapse as two different "unused axis" stories
+- contrasts [[2011-rifai-contractive-autoencoders]] — overcomplete L1 dictionary learning for monosemantic features vs analytic encoder-Jacobian contraction for locally invariant stacked codes
+- contrasts [[contractive-autoencoder-jacobian-penalty]] — code sparsity vs local contractivity of \(f\) as alternate overcomplete regularizers
 - [[Sources MOC]]
 - [[Autoencoder MOC]]
