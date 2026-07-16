@@ -12,6 +12,7 @@ distilled_from:
   - "[[2023-bunne-cellot-neural-ot]]"
   - "[[2019-peyre-computational-optimal-transport]]"
   - "[[2023-korotin-neural-optimal-transport]]"
+  - "[[2017-arjovsky-wasserstein-gan]]"
 ---
 
 # Wasserstein distance
@@ -32,11 +33,14 @@ as a loss/geometry in generative modeling, alignment, and single-cell trajectory
 - Computing it exactly is an LP; entropic regularization gives the fast **Sinkhorn distance**
   surrogate ([[2013-cuturi-sinkhorn-distances]]).
 - Full definitions, metric properties, and geodesics: [[2019-peyre-computational-optimal-transport]].
+- As a **training loss**, \(W_1\) (via the KR dual) underpins WGANs
+  ([[2017-arjovsky-wasserstein-gan]]) — estimating the distance, not an explicit plan.
 
 ## Related
 
 - background-for [[2013-cuturi-sinkhorn-distances]] — the smoothed, fast approximation
 - applies [[2023-bunne-cellot-neural-ot]] — optimizes the W₂ dual with neural potentials
 - applies [[2023-korotin-neural-optimal-transport]] — learns W₂ / γ-weak quadratic maps and plans
+- applies [[2017-arjovsky-wasserstein-gan]] — minimizes (approx.) \(W_1\) for generative modeling
 - introduces [[2019-peyre-computational-optimal-transport]] — reference definitions and properties
 - extends [[monge-kantorovich-formulations]] — the distance is the optimal value of those problems

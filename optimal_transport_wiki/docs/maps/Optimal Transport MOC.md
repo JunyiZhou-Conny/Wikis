@@ -27,6 +27,7 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 
 ## Neural / large-scale OT
 
+- [[2017-arjovsky-wasserstein-gan]] — WGAN: adversarial training via the Kantorovich–Rubinstein dual of \(W_1\) (ICML 2017). Tier A. Cost-only classic.
 - [[2023-korotin-neural-optimal-transport]] — Neural OT: maximin dual solver for strong/weak costs and stochastic plans (ICLR 2023 spotlight). Tier A.
 - [[2023-bunne-cellot-neural-ot]] — CellOT: neural OT via input-convex nets for single-cell perturbations (Nature Methods 2023). Tier A.
 - [[2019-yang-scalable-unbalanced-ot-gans]] — unbalanced OT via a GAN-style transport map + scaling factor (ICLR 2019). Tier A.

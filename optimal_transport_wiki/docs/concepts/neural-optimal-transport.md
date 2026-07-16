@@ -12,6 +12,7 @@ distilled_from:
   - "[[2023-bunne-cellot-neural-ot]]"
   - "[[2019-yang-scalable-unbalanced-ot-gans]]"
   - "[[2023-korotin-neural-optimal-transport]]"
+  - "[[2017-arjovsky-wasserstein-gan]]"
 ---
 
 # Neural optimal transport
@@ -31,6 +32,8 @@ generative modeling, unpaired translation, and single-cell perturbation predicti
 - **Dual-potential approach:** learn convex potentials (e.g. via **input-convex neural networks**)
   and recover the Monge map as their gradient; trained as a max–min over two ICNNs
   ([[2023-bunne-cellot-neural-ot]]).
+- **Cost-only adversarial baseline:** WGAN estimates \(W_1\) via a Lipschitz critic but does **not**
+  recover a transport map ([[2017-arjovsky-wasserstein-gan]]).
 - **Adversarial / maximin map approach:** learn a transport map (and, for unbalanced OT, a scaling
   factor) with GAN-style or dual-maximin updates ([[2019-yang-scalable-unbalanced-ot-gans]],
   [[2023-korotin-neural-optimal-transport]]). Korotin et al. cover **weak** costs and stochastic
@@ -43,4 +46,5 @@ generative modeling, unpaired translation, and single-cell perturbation predicti
 - introduces [[2023-bunne-cellot-neural-ot]] — ICNN dual potentials → Monge map
 - applies [[2019-yang-scalable-unbalanced-ot-gans]] — GAN-style neural solver, extended to unbalanced OT
 - introduces [[2023-korotin-neural-optimal-transport]] — maximin neural solver for strong/weak OT plans
+- background-for [[2017-arjovsky-wasserstein-gan]] — cost-only \(W_1\) critic; map/plan solvers build on this lineage
 - extends [[monge-kantorovich-formulations]] — a neural parameterization of the OT dual
