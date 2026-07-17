@@ -68,14 +68,16 @@ Concepts: [[choosing-latent-dimension]] · [[linear-autoencoder-pca-equivalence]
 - [[latent-arithmetic-vs-global-shift]]
 - [[sparse-autoencoder-dictionary-learning]]
 - [[monosemantic-features-vs-polysemantic-neurons]]
+- [[topk-k-sparse-autoencoder]]
 
 ### Sparse autoencoders & monosemantic features (2026-07-10)
 
 *Planned "denoising / sparse autoencoders" thread — frontier interpretability use of AEs:*
 
 - [[2023-bricken-towards-monosemanticity]] — Anthropic SAE dictionary learning on LM MLP activations (Transformer Circuits 2023). Tier A.
+- [[2025-gao-scaling-evaluating-saes]] — OpenAI TopK / k-sparse SAEs with scaling laws; 16M latents on GPT-4 (ICLR 2025 Oral). Tier A.
 
-Concepts: [[sparse-autoencoder-dictionary-learning]] · [[monosemantic-features-vs-polysemantic-neurons]]
+Concepts: [[sparse-autoencoder-dictionary-learning]] · [[monosemantic-features-vs-polysemantic-neurons]] · [[topk-k-sparse-autoencoder]]
 
 ## General topics (planned)
 
