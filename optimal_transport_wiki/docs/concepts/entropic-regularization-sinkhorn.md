@@ -13,6 +13,7 @@ distilled_from:
   - "[[2018-alvarez-melis-gromov-wasserstein-alignment]]"
   - "[[2018-chizat-scaling-algorithms-unbalanced]]"
   - "[[2019-sejourne-unbalanced-sinkhorn-divergences]]"
+  - "[[2023-pooladian-multisample-flow-matching]]"
 ---
 
 # Entropic regularization & the Sinkhorn algorithm
@@ -44,3 +45,4 @@ Gromov-Wasserstein and to unbalanced problems.
 - applies [[2018-alvarez-melis-gromov-wasserstein-alignment]] — Sinkhorn as the inner GW solver
 - extends [[2018-chizat-scaling-algorithms-unbalanced]] — unbalanced generalization of the scaling iterations
 - contrasts [[2019-sejourne-unbalanced-sinkhorn-divergences]] — debiases the entropic estimate
+- applies [[2023-pooladian-multisample-flow-matching]] — BatchEOT uses Sinkhorn minibatch plans inside Joint CFM

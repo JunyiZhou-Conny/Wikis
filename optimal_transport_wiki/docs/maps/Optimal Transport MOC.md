@@ -28,6 +28,7 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 ## Neural / large-scale OT
 
 - [[2023-korotin-neural-optimal-transport]] — Neural OT: maximin dual solver for strong/weak costs and stochastic plans (ICLR 2023 spotlight). Tier A.
+- [[2023-pooladian-multisample-flow-matching]] — Multisample FM: Joint CFM with minibatch OT couplings for straighter CNF flows (ICML 2023, Meta FAIR). Tier A.
 - [[2023-bunne-cellot-neural-ot]] — CellOT: neural OT via input-convex nets for single-cell perturbations (Nature Methods 2023). Tier A.
 - [[2019-yang-scalable-unbalanced-ot-gans]] — unbalanced OT via a GAN-style transport map + scaling factor (ICLR 2019). Tier A.
 

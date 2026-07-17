@@ -12,6 +12,7 @@ distilled_from:
   - "[[2023-bunne-cellot-neural-ot]]"
   - "[[2019-yang-scalable-unbalanced-ot-gans]]"
   - "[[2023-korotin-neural-optimal-transport]]"
+  - "[[2023-pooladian-multisample-flow-matching]]"
 ---
 
 # Neural optimal transport
@@ -35,6 +36,9 @@ generative modeling, unpaired translation, and single-cell perturbation predicti
   factor) with GAN-style or dual-maximin updates ([[2019-yang-scalable-unbalanced-ot-gans]],
   [[2023-korotin-neural-optimal-transport]]). Korotin et al. cover **weak** costs and stochastic
   plans \(T(x,z)\), recovering deterministic strong-cost maps as a special case.
+- **Flow-matching / CNF approach:** regress a continuous vector field onto CondOT targets conditioned
+  on minibatch OT couplings, preserving marginals while approximating dynamic OT
+  ([[2023-pooladian-multisample-flow-matching]]).
 - Both rest on OT **duality** ([[monge-kantorovich-formulations]]); stability comes from
   architectural inductive biases (convexity constraints) or saddle-point training schedules.
 
@@ -43,4 +47,5 @@ generative modeling, unpaired translation, and single-cell perturbation predicti
 - introduces [[2023-bunne-cellot-neural-ot]] — ICNN dual potentials → Monge map
 - applies [[2019-yang-scalable-unbalanced-ot-gans]] — GAN-style neural solver, extended to unbalanced OT
 - introduces [[2023-korotin-neural-optimal-transport]] — maximin neural solver for strong/weak OT plans
+- applies [[2023-pooladian-multisample-flow-matching]] — Joint CFM + BatchOT for simulation-free CNF transport
 - extends [[monge-kantorovich-formulations]] — a neural parameterization of the OT dual
