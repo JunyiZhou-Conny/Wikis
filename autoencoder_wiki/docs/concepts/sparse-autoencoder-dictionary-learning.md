@@ -11,6 +11,7 @@ tags:
 distilled_from:
   - "[[2023-bricken-towards-monosemanticity]]"
   - "[[2006-hinton-deep-autoencoder]]"
+  - "[[2014-makhzani-k-sparse-autoencoders]]"
 ---
 
 # Sparse autoencoder as weak dictionary learning
@@ -23,14 +24,17 @@ reconstruct activations as a sparse sum of learned feature directions.
 
 Classic deep autoencoders compress through a bottleneck ([[2006-hinton-deep-autoencoder]]). SAEs
 flip that goal: expand the code and force sparsity so each active unit is a candidate
-**feature**, not a dense compressed coordinate. That is the workhorse for modern mechanistic
-interpretability of language-model MLPs ([[2023-bricken-towards-monosemanticity]]).
+**feature**, not a dense compressed coordinate. Hard Top-k AEs
+([[2014-makhzani-k-sparse-autoencoders]]) showed that exact cardinality sparsity alone can train
+such dictionaries; L1+ReLU SAEs later became the workhorse for mechanistic interpretability of
+language-model MLPs ([[2023-bricken-towards-monosemanticity]]).
 
 ## Details
 
 - **Objective:** MSE reconstruction of (usually frozen) activations + L1 on encoder outputs —
   weak enough to resemble an MLP's own feature-recovery power, unlike NP-hard exact compressed
-  sensing.
+  sensing. Hard **k-sparse** variants replace L1 with Top-k support selection
+  ([[k-sparse-autoencoder]]).
 - **Overcompleteness:** dictionary width ≫ neuron count (e.g. 8×–256×) so superposition can be
   unfolded into more features than neurons.
 - **Training practicalities:** large activation datasets; **dead-feature resampling** when units
@@ -42,5 +46,7 @@ interpretability of language-model MLPs ([[2023-bricken-towards-monosemanticity]
 
 - introduces [[2023-bricken-towards-monosemanticity]] — detailed SAE success on a 512-neuron MLP LM
 - extends [[2006-hinton-deep-autoencoder]] — same reconstructive AE skeleton, opposite capacity regime (overcomplete + sparse vs bottleneck)
+- extends [[2014-makhzani-k-sparse-autoencoders]] — classic hard Top-k dictionary AE that isolates sparsity as the only regularizer
+- applies [[k-sparse-autoencoder]] — Top-k cardinality as one concrete sparsity mechanism inside this family
 - background-for [[monosemantic-features-vs-polysemantic-neurons]] — the tool used to obtain monosemantic units
 - contrasts [[linear-autoencoder-pca-equivalence]] — ordered PCA/LAE axes vs overcomplete sparse dictionary atoms

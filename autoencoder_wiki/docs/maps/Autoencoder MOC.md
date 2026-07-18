@@ -67,15 +67,17 @@ Concepts: [[choosing-latent-dimension]] · [[linear-autoencoder-pca-equivalence]
 - [[probabilistic-vae-vs-count-autoencoder]]
 - [[latent-arithmetic-vs-global-shift]]
 - [[sparse-autoencoder-dictionary-learning]]
+- [[k-sparse-autoencoder]]
 - [[monosemantic-features-vs-polysemantic-neurons]]
 
 ### Sparse autoencoders & monosemantic features (2026-07-10)
 
 *Planned "denoising / sparse autoencoders" thread — frontier interpretability use of AEs:*
 
+- [[2014-makhzani-k-sparse-autoencoders]] — classic **k-sparse AE** (hard Top-k as sole nonlinearity; ICLR 2014). Tier A.
 - [[2023-bricken-towards-monosemanticity]] — Anthropic SAE dictionary learning on LM MLP activations (Transformer Circuits 2023). Tier A.
 
-Concepts: [[sparse-autoencoder-dictionary-learning]] · [[monosemantic-features-vs-polysemantic-neurons]]
+Concepts: [[k-sparse-autoencoder]] · [[sparse-autoencoder-dictionary-learning]] · [[monosemantic-features-vs-polysemantic-neurons]]
 
 ## General topics (planned)
 
