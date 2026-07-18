@@ -8,6 +8,7 @@ tags:
   - domain/math
   - topic/unbalanced-ot
 distilled_from:
+  - "[[2015-frogner-wasserstein-loss]]"
   - "[[2018-chizat-unbalanced-ot-formulations]]"
   - "[[2018-chizat-scaling-algorithms-unbalanced]]"
   - "[[2019-sejourne-unbalanced-sinkhorn-divergences]]"
@@ -30,7 +31,8 @@ robust to outliers/noise than balanced OT.
 ## Details
 
 - **Mechanism:** replace the hard constraints γ1 = μ, γᵀ1 = ν with soft **divergence penalties**
-  (KL / Fisher-Rao / TV) on the marginals ([[2018-chizat-unbalanced-ot-formulations]]).
+  (KL / Fisher-Rao / TV) on the marginals ([[2018-chizat-unbalanced-ot-formulations]]); an earlier
+  learning-oriented soft-KL relaxation appears in [[2015-frogner-wasserstein-loss]].
 - **Distinguished metric:** Wasserstein-Fisher-Rao / Hellinger-Kantorovich interpolates transport
   and growth ([[2018-chizat-unbalanced-ot-formulations]]).
 - **Algorithms:** Sinkhorn-style diagonal scaling against the soft penalties
@@ -47,4 +49,5 @@ robust to outliers/noise than balanced OT.
 - applies [[2019-yang-scalable-unbalanced-ot-gans]] — neural map + scaling factor for mass change
 - background-for [[2019-sejourne-unbalanced-sinkhorn-divergences]] — robust debiased losses for the regime
 - background-for [[wasserstein-fisher-rao-metric]] — its distinguished metric interpolating transport and growth
+- background-for [[2015-frogner-wasserstein-loss]] — supervised soft-KL marginal relaxation predates the unbalanced theory line
 - contrasts [[monge-kantorovich-formulations]] — the balanced, exact-marginal baseline

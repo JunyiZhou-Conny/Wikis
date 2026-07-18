@@ -9,6 +9,7 @@ tags:
   - topic/wasserstein
 distilled_from:
   - "[[2013-cuturi-sinkhorn-distances]]"
+  - "[[2015-frogner-wasserstein-loss]]"
   - "[[2023-bunne-cellot-neural-ot]]"
   - "[[2019-peyre-computational-optimal-transport]]"
   - "[[2023-korotin-neural-optimal-transport]]"
@@ -31,12 +32,16 @@ as a loss/geometry in generative modeling, alignment, and single-cell trajectory
   ([[2023-bunne-cellot-neural-ot]], [[2023-korotin-neural-optimal-transport]]).
 - Computing it exactly is an LP; entropic regularization gives the fast **Sinkhorn distance**
   surrogate ([[2013-cuturi-sinkhorn-distances]]).
+- As a **supervised loss**: minimize \(W_p\) between predicted and target label measures when the
+  output space has a ground metric ([[2015-frogner-wasserstein-loss]]; see [[wasserstein-loss]]).
 - Full definitions, metric properties, and geodesics: [[2019-peyre-computational-optimal-transport]].
 
 ## Related
 
 - background-for [[2013-cuturi-sinkhorn-distances]] — the smoothed, fast approximation
+- applies [[2015-frogner-wasserstein-loss]] — supervised multi-label ERM with \(W_p\) on label space
 - applies [[2023-bunne-cellot-neural-ot]] — optimizes the W₂ dual with neural potentials
 - applies [[2023-korotin-neural-optimal-transport]] — learns W₂ / γ-weak quadratic maps and plans
 - introduces [[2019-peyre-computational-optimal-transport]] — reference definitions and properties
 - extends [[monge-kantorovich-formulations]] — the distance is the optimal value of those problems
+- background-for [[wasserstein-loss]] — the distance turned into a discriminative training objective
