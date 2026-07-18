@@ -41,6 +41,7 @@ map as their gradient). Knowing the primal/dual pair explains why methods look s
 ## Related
 
 - introduces [[2013-cuturi-sinkhorn-distances]] — regularizes the Kantorovich primal
+- applies [[2015-frogner-wasserstein-loss]] — discrete Kantorovich plans as a supervised label-space loss
 - applies [[2023-bunne-cellot-neural-ot]] — parameterizes the dual potentials to recover a Monge map
 - applies [[2023-korotin-neural-optimal-transport]] — maximin dual for strong/weak costs → stochastic maps
 - background-for [[2018-alvarez-melis-gromov-wasserstein-alignment]] — GW builds on the coupling polytope

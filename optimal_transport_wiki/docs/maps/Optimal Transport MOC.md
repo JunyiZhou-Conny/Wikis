@@ -25,6 +25,10 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 
 - [[2018-alvarez-melis-gromov-wasserstein-alignment]] — Gromov-Wasserstein for aligning incomparable spaces (EMNLP 2018). Tier A.
 
+## Discriminative / supervised OT
+
+- [[2015-frogner-wasserstein-loss]] — Wasserstein as a multi-label ERM loss via Sinkhorn (+ soft-marginal unnormalized extension) (NeurIPS 2015). Tier A.
+
 ## Neural / large-scale OT
 
 - [[2023-korotin-neural-optimal-transport]] — Neural OT: maximin dual solver for strong/weak costs and stochastic plans (ICLR 2023 spotlight). Tier A.
@@ -46,6 +50,7 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 - [[balanced-vs-unbalanced-ot]]
 - [[wasserstein-fisher-rao-metric]]
 - [[neural-optimal-transport]]
+- [[wasserstein-loss]]
 
 ## All sources
 

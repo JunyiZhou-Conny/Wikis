@@ -54,6 +54,7 @@ solvers and trivially GPU-parallel.
 - background-for [[wasserstein-distance]] — a fast smoothed surrogate for the Wasserstein distance
 - applies [[monge-kantorovich-formulations]] — regularizes the Kantorovich primal
 - background-for [[2019-peyre-computational-optimal-transport]] — the algorithmic core that monograph systematizes
+- background-for [[2015-frogner-wasserstein-loss]] — Frogner turns Sinkhorn distances into a supervised multi-label loss
 - benchmarks [[2018-alvarez-melis-gromov-wasserstein-alignment]] — used there as the inner solver for GW
 - [[Sources MOC]]
 - [[Optimal Transport MOC]]

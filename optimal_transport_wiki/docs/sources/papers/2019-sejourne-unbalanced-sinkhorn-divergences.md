@@ -50,6 +50,7 @@ Sinkhorn-cheap.
 
 ## Related
 
+- extends [[2015-frogner-wasserstein-loss]] — continues soft-marginal entropic OT as an ML loss; adds debiasing for unbalanced Sinkhorn divergences
 - extends [[2018-chizat-scaling-algorithms-unbalanced]] — debiases the unbalanced Sinkhorn costs it computes
 - applies [[entropic-regularization-sinkhorn]] — corrects the entropic bias of Sinkhorn in the unbalanced case
 - background-for [[balanced-vs-unbalanced-ot]] — a practical loss for the unbalanced regime

@@ -10,6 +10,7 @@ tags:
   - method/sinkhorn
 distilled_from:
   - "[[2013-cuturi-sinkhorn-distances]]"
+  - "[[2015-frogner-wasserstein-loss]]"
   - "[[2018-alvarez-melis-gromov-wasserstein-alignment]]"
   - "[[2018-chizat-scaling-algorithms-unbalanced]]"
   - "[[2019-sejourne-unbalanced-sinkhorn-divergences]]"
@@ -37,10 +38,14 @@ Gromov-Wasserstein and to unbalanced problems.
   ([[2018-chizat-scaling-algorithms-unbalanced]]).
 - Entropic OT is **biased** (nonzero for equal inputs); **Sinkhorn divergences** debias it
   ([[2019-sejourne-unbalanced-sinkhorn-divergences]]).
+- In **supervised learning**, Sinkhorn gradients make \(W_p(h(x),y)\) a practical multi-label
+  loss ([[2015-frogner-wasserstein-loss]]; [[wasserstein-loss]]).
 
 ## Related
 
 - introduces [[2013-cuturi-sinkhorn-distances]] — the entropic-OT / Sinkhorn method
+- applies [[2015-frogner-wasserstein-loss]] — Sinkhorn gradients for supervised Wasserstein ERM
 - applies [[2018-alvarez-melis-gromov-wasserstein-alignment]] — Sinkhorn as the inner GW solver
 - extends [[2018-chizat-scaling-algorithms-unbalanced]] — unbalanced generalization of the scaling iterations
 - contrasts [[2019-sejourne-unbalanced-sinkhorn-divergences]] — debiases the entropic estimate
+- background-for [[wasserstein-loss]] — the engine behind trainable Wasserstein losses
