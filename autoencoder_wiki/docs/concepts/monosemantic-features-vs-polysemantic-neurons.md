@@ -11,6 +11,7 @@ tags:
 distilled_from:
   - "[[2023-bricken-towards-monosemanticity]]"
   - "[[2006-hinton-deep-autoencoder]]"
+  - "[[2024-rajamanoharan-jumprelu-saes]]"
 ---
 
 # Monosemantic features vs polysemantic neurons
@@ -41,5 +42,7 @@ features ([[2023-bricken-towards-monosemanticity]]).
 
 - introduces [[2023-bricken-towards-monosemanticity]] — SAEs as a practical route to monosemantic features in LM MLPs
 - background-for [[2006-hinton-deep-autoencoder]] — bottleneck codes are useful representations, not a claim of monosemantic neurons
+- benchmarks [[2024-rajamanoharan-jumprelu-saes]] — JumpReLU fidelity gains claimed without hurting human/auto interpretability vs Gated/TopK
 - applies [[sparse-autoencoder-dictionary-learning]] — the decomposition method that targets this distinction
+- applies [[jumprelu-sae]] — thresholded SAE variant still aiming at monosemantic dictionary atoms
 - contrasts [[passive-latent-dimensions]] — mixed-but-active neurons vs collapsed unused latent axes
