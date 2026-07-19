@@ -59,6 +59,7 @@ reconstruction and downstream visualization/classification.
 - introduces [[vae-vs-linear-nonlinear-dr-benchmarks]] — the original "autoencoder beats linear DR" result
 - background-for [[scrna-dr-pipeline-hvg-to-latent]] — the encoder → latent code pattern that pipeline instantiates
 - background-for [[2023-bricken-towards-monosemanticity]] — SAE reuses AE reconstruction but targets overcomplete sparse features, not a compressive bottleneck
+- background-for [[2024-rajamanoharan-jumprelu-saes]] — JumpReLU SAE keeps the reconstructive AE pair, swaps bottleneck for thresholded overcomplete sparse codes
 - background-for [[sparse-autoencoder-dictionary-learning]] — the reconstructive AE skeleton SAEs inherit and invert (expand + sparsify)
 - background-for [[monosemantic-features-vs-polysemantic-neurons]] — useful codes ≠ monosemantic neuron axes
 - [[Sources MOC]]
