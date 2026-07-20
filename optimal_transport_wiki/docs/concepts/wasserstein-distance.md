@@ -9,6 +9,7 @@ tags:
   - topic/wasserstein
 distilled_from:
   - "[[2013-cuturi-sinkhorn-distances]]"
+  - "[[2018-genevay-sinkhorn-divergences]]"
   - "[[2023-bunne-cellot-neural-ot]]"
   - "[[2019-peyre-computational-optimal-transport]]"
   - "[[2023-korotin-neural-optimal-transport]]"
@@ -30,13 +31,16 @@ as a loss/geometry in generative modeling, alignment, and single-cell trajectory
 - W₂ (squared-Euclidean cost) is the case used by most ML work, including neural OT
   ([[2023-bunne-cellot-neural-ot]], [[2023-korotin-neural-optimal-transport]]).
 - Computing it exactly is an LP; entropic regularization gives the fast **Sinkhorn distance**
-  surrogate ([[2013-cuturi-sinkhorn-distances]]).
+  surrogate ([[2013-cuturi-sinkhorn-distances]]); the debiased **Sinkhorn divergence** recovers
+  Wasserstein as ε→0 while interpolating toward MMD ([[2018-genevay-sinkhorn-divergences]]).
 - Full definitions, metric properties, and geodesics: [[2019-peyre-computational-optimal-transport]].
 
 ## Related
 
 - background-for [[2013-cuturi-sinkhorn-distances]] — the smoothed, fast approximation
+- applies [[2018-genevay-sinkhorn-divergences]] — Sinkhorn loss for generative fitting; OT limit of ε→0
 - applies [[2023-bunne-cellot-neural-ot]] — optimizes the W₂ dual with neural potentials
 - applies [[2023-korotin-neural-optimal-transport]] — learns W₂ / γ-weak quadratic maps and plans
 - introduces [[2019-peyre-computational-optimal-transport]] — reference definitions and properties
 - extends [[monge-kantorovich-formulations]] — the distance is the optimal value of those problems
+- contrasts [[sinkhorn-divergence]] — debiased entropic surrogate with MMD limit

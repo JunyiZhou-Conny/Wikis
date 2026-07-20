@@ -12,6 +12,7 @@ distilled_from:
   - "[[2013-cuturi-sinkhorn-distances]]"
   - "[[2018-alvarez-melis-gromov-wasserstein-alignment]]"
   - "[[2018-chizat-scaling-algorithms-unbalanced]]"
+  - "[[2018-genevay-sinkhorn-divergences]]"
   - "[[2019-sejourne-unbalanced-sinkhorn-divergences]]"
 ---
 
@@ -36,11 +37,13 @@ Gromov-Wasserstein and to unbalanced problems.
 - Generalizes to **unbalanced** OT by scaling against soft marginal penalties
   ([[2018-chizat-scaling-algorithms-unbalanced]]).
 - Entropic OT is **biased** (nonzero for equal inputs); **Sinkhorn divergences** debias it
-  ([[2019-sejourne-unbalanced-sinkhorn-divergences]]).
+  ([[2018-genevay-sinkhorn-divergences]], [[2019-sejourne-unbalanced-sinkhorn-divergences]]).
 
 ## Related
 
 - introduces [[2013-cuturi-sinkhorn-distances]] — the entropic-OT / Sinkhorn method
 - applies [[2018-alvarez-melis-gromov-wasserstein-alignment]] — Sinkhorn as the inner GW solver
 - extends [[2018-chizat-scaling-algorithms-unbalanced]] — unbalanced generalization of the scaling iterations
-- contrasts [[2019-sejourne-unbalanced-sinkhorn-divergences]] — debiases the entropic estimate
+- applies [[2018-genevay-sinkhorn-divergences]] — unrolls Sinkhorn as autodiff layers for generative training
+- contrasts [[2019-sejourne-unbalanced-sinkhorn-divergences]] — debiases the entropic estimate (unbalanced)
+- contrasts [[sinkhorn-divergence]] — the debiased loss built on these iterations

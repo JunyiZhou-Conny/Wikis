@@ -50,8 +50,10 @@ Sinkhorn-cheap.
 
 ## Related
 
+- extends [[2018-genevay-sinkhorn-divergences]] — lifts balanced Sinkhorn-divergence debiasing to unequal-mass measures
 - extends [[2018-chizat-scaling-algorithms-unbalanced]] — debiases the unbalanced Sinkhorn costs it computes
 - applies [[entropic-regularization-sinkhorn]] — corrects the entropic bias of Sinkhorn in the unbalanced case
+- applies [[sinkhorn-divergence]] — unbalanced variant of the debiased entropic loss
 - background-for [[balanced-vs-unbalanced-ot]] — a practical loss for the unbalanced regime
 - extends [[2018-chizat-unbalanced-ot-formulations]] — builds losses on that formulation's marginal relaxation
 - [[Sources MOC]]
