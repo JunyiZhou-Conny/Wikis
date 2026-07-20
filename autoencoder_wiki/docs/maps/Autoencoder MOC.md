@@ -13,6 +13,7 @@ Single-cell VAE / autoencoder topic index.
 ### Foundations
 
 - [[2006-hinton-deep-autoencoder]] — the original **deep autoencoder** (encoder/decoder/bottleneck, beats PCA). Tier A. Root of the general-AE thread.
+- [[2007-bengio-greedy-layer-wise]] — **greedy layer-wise unsupervised pretraining**; shows stacked autoencoders work as layer blocks alongside RBMs/DBNs. Tier A.
 - [[2013-kingma-vae]] — the original **VAE** (reparameterization trick, ELBO). Tier A. Root of the VAE thread below.
 
 ### Perturbation prediction stack (refs 12–14)
@@ -68,6 +69,7 @@ Concepts: [[choosing-latent-dimension]] · [[linear-autoencoder-pca-equivalence]
 - [[latent-arithmetic-vs-global-shift]]
 - [[sparse-autoencoder-dictionary-learning]]
 - [[monosemantic-features-vs-polysemantic-neurons]]
+- [[greedy-layer-wise-unsupervised-pretraining]]
 
 ### Sparse autoencoders & monosemantic features (2026-07-10)
 
