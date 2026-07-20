@@ -19,6 +19,7 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 ## Foundations
 
 - [[2013-cuturi-sinkhorn-distances]] — entropic regularization + Sinkhorn scaling (NeurIPS 2013). Tier A. The computational root of modern OT.
+- [[2018-genevay-sinkhorn-divergences]] — Sinkhorn loss / debiased entropic OT for generative models (AISTATS 2018). Tier A. Canonical Sinkhorn-divergence paper.
 - [[2019-peyre-computational-optimal-transport]] — the standard computational-OT monograph (Peyré & Cuturi). Tier A.
 
 ## Distances & couplings
@@ -42,6 +43,7 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 - [[monge-kantorovich-formulations]]
 - [[wasserstein-distance]]
 - [[entropic-regularization-sinkhorn]]
+- [[sinkhorn-divergence]]
 - [[gromov-wasserstein-distance]]
 - [[balanced-vs-unbalanced-ot]]
 - [[wasserstein-fisher-rao-metric]]

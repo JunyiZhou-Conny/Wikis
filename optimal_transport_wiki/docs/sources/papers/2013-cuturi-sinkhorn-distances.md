@@ -54,6 +54,8 @@ solvers and trivially GPU-parallel.
 - background-for [[wasserstein-distance]] — a fast smoothed surrogate for the Wasserstein distance
 - applies [[monge-kantorovich-formulations]] — regularizes the Kantorovich primal
 - background-for [[2019-peyre-computational-optimal-transport]] — the algorithmic core that monograph systematizes
+- background-for [[2018-genevay-sinkhorn-divergences]] — Genevay et al. turn Sinkhorn into a debiased generative loss
+- background-for [[sinkhorn-divergence]] — entropic OT is the quantity that debiasing corrects
 - benchmarks [[2018-alvarez-melis-gromov-wasserstein-alignment]] — used there as the inner solver for GW
 - [[Sources MOC]]
 - [[Optimal Transport MOC]]
