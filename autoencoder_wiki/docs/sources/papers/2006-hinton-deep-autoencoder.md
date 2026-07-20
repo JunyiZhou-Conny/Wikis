@@ -55,8 +55,10 @@ reconstruction and downstream visualization/classification.
 <Typed links — this is the general-AE root the VAE thread and DR work descend from.>
 
 - background-for [[2013-kingma-vae]] — the VAE adds a probabilistic latent + ELBO on top of this encoder/decoder/bottleneck idea
+- background-for [[2007-bengio-greedy-layer-wise]] — Bengio et al. analyze this greedy RBM/AE pretraining principle and show stacked autoencoders match DBNs
 - background-for [[2020-li-dr-benchmark]] — establishes the "nonlinear AE vs PCA" comparison this benchmark later runs at scale on scRNA
 - introduces [[vae-vs-linear-nonlinear-dr-benchmarks]] — the original "autoencoder beats linear DR" result
+- introduces [[greedy-layer-wise-unsupervised-pretraining]] — RBM layer-wise pretraining then joint fine-tuning of a deep bottleneck AE
 - background-for [[scrna-dr-pipeline-hvg-to-latent]] — the encoder → latent code pattern that pipeline instantiates
 - background-for [[2023-bricken-towards-monosemanticity]] — SAE reuses AE reconstruction but targets overcomplete sparse features, not a compressive bottleneck
 - background-for [[sparse-autoencoder-dictionary-learning]] — the reconstructive AE skeleton SAEs inherit and invert (expand + sparsify)
