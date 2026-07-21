@@ -42,5 +42,7 @@ interpretability of language-model MLPs ([[2023-bricken-towards-monosemanticity]
 
 - introduces [[2023-bricken-towards-monosemanticity]] — detailed SAE success on a 512-neuron MLP LM
 - extends [[2006-hinton-deep-autoencoder]] — same reconstructive AE skeleton, opposite capacity regime (overcomplete + sparse vs bottleneck)
+- applies [[2024-rajamanoharan-gated-saes]] — Gated SAE removes L1 shrinkage while keeping the overcomplete sparse dictionary goal
 - background-for [[monosemantic-features-vs-polysemantic-neurons]] — the tool used to obtain monosemantic units
 - contrasts [[linear-autoencoder-pca-equivalence]] — ordered PCA/LAE axes vs overcomplete sparse dictionary atoms
+- background-for [[gated-sae]] — gated detection vs magnitude as a shrinkage fix inside this dictionary-learning setup

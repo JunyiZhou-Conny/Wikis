@@ -42,4 +42,6 @@ features ([[2023-bricken-towards-monosemanticity]]).
 - introduces [[2023-bricken-towards-monosemanticity]] — SAEs as a practical route to monosemantic features in LM MLPs
 - background-for [[2006-hinton-deep-autoencoder]] — bottleneck codes are useful representations, not a claim of monosemantic neurons
 - applies [[sparse-autoencoder-dictionary-learning]] — the decomposition method that targets this distinction
+- applies [[2024-rajamanoharan-gated-saes]] — Gated SAEs keep comparable human interpretability while improving sparsity–fidelity
 - contrasts [[passive-latent-dimensions]] — mixed-but-active neurons vs collapsed unused latent axes
+- background-for [[gated-sae]] — gated architecture judged partly by whether features stay monosemantic/interpretable
