@@ -12,6 +12,7 @@ distilled_from:
   - "[[2023-bunne-cellot-neural-ot]]"
   - "[[2019-peyre-computational-optimal-transport]]"
   - "[[2023-korotin-neural-optimal-transport]]"
+  - "[[2015-bonneel-sliced-radon-wasserstein-barycenters]]"
 ---
 
 # Wasserstein distance
@@ -31,6 +32,9 @@ as a loss/geometry in generative modeling, alignment, and single-cell trajectory
   ([[2023-bunne-cellot-neural-ot]], [[2023-korotin-neural-optimal-transport]]).
 - Computing it exactly is an LP; entropic regularization gives the fast **Sinkhorn distance**
   surrogate ([[2013-cuturi-sinkhorn-distances]]).
+- **Sliced Wasserstein** averages 1-D Wasserstein costs of random projections — another scalable
+  surrogate, foundational for projection barycenters ([[2015-bonneel-sliced-radon-wasserstein-barycenters]],
+  [[sliced-wasserstein]]).
 - Full definitions, metric properties, and geodesics: [[2019-peyre-computational-optimal-transport]].
 
 ## Related
@@ -40,3 +44,4 @@ as a loss/geometry in generative modeling, alignment, and single-cell trajectory
 - applies [[2023-korotin-neural-optimal-transport]] — learns W₂ / γ-weak quadratic maps and plans
 - introduces [[2019-peyre-computational-optimal-transport]] — reference definitions and properties
 - extends [[monge-kantorovich-formulations]] — the distance is the optimal value of those problems
+- contrasts [[2015-bonneel-sliced-radon-wasserstein-barycenters]] — SW integrates 1-D Wasserstein costs instead of solving high-d OT

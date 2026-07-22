@@ -24,6 +24,7 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 ## Distances & couplings
 
 - [[2018-alvarez-melis-gromov-wasserstein-alignment]] — Gromov-Wasserstein for aligning incomparable spaces (EMNLP 2018). Tier A.
+- [[2015-bonneel-sliced-radon-wasserstein-barycenters]] — sliced & Radon Wasserstein barycenters / SW distance (JMIV 2015). Tier A. Canonical projection-OT paper.
 
 ## Neural / large-scale OT
 
@@ -41,6 +42,7 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 
 - [[monge-kantorovich-formulations]]
 - [[wasserstein-distance]]
+- [[sliced-wasserstein]]
 - [[entropic-regularization-sinkhorn]]
 - [[gromov-wasserstein-distance]]
 - [[balanced-vs-unbalanced-ot]]
