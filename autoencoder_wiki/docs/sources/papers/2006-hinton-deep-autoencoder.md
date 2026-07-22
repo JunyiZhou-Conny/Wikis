@@ -55,7 +55,9 @@ reconstruction and downstream visualization/classification.
 <Typed links — this is the general-AE root the VAE thread and DR work descend from.>
 
 - background-for [[2013-kingma-vae]] — the VAE adds a probabilistic latent + ELBO on top of this encoder/decoder/bottleneck idea
+- background-for [[2014-rezende-stochastic-backpropagation]] — DLGMs replace the deterministic code with deep latent Gaussians + a recognition encoder
 - background-for [[2020-li-dr-benchmark]] — establishes the "nonlinear AE vs PCA" comparison this benchmark later runs at scale on scRNA
+
 - introduces [[vae-vs-linear-nonlinear-dr-benchmarks]] — the original "autoencoder beats linear DR" result
 - background-for [[scrna-dr-pipeline-hvg-to-latent]] — the encoder → latent code pattern that pipeline instantiates
 - background-for [[2023-bricken-towards-monosemanticity]] — SAE reuses AE reconstruction but targets overcomplete sparse features, not a compressive bottleneck

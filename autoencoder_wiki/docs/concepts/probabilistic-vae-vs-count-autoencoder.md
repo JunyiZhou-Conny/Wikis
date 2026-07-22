@@ -39,3 +39,5 @@ Pick based on whether you need **generative latent inference** or **denoised cou
 - extends [[vae-elbo-scrna-count-models]] — the ELBO/count-likelihood objective this split turns on
 - introduces [[2018-lopez-scvi]] — the variational (scVI) side of the split
 - contrasts [[2019-eraslan-dca]] — the deterministic count-autoencoder (DCA) side
+- background-for [[2014-rezende-stochastic-backpropagation]] — recognition-model + KL free energy that defines “variational”
+- applies [[amortized-variational-inference]] — what the variational side amortizes and the deterministic AE skips
