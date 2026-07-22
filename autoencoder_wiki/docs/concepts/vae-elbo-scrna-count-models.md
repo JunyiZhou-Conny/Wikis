@@ -33,3 +33,6 @@ Plain MSE autoencoders treat expression as Gaussian — a poor match for sparse 
 - [[probabilistic-vae-vs-count-autoencoder]]
 - [[2018-lopez-scvi]]
 - [[2021-xu-scanvi]]
+- background-for [[2013-kingma-vae]] — SGVB/AEVB ELBO the count models adapt
+- background-for [[2014-rezende-stochastic-backpropagation]] — free-energy / recognition-model ELBO at the DLGM root
+- applies [[amortized-variational-inference]] — encoder that supplies \(q(z\mid x)\) in the ELBO

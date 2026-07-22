@@ -14,6 +14,9 @@ Single-cell VAE / autoencoder topic index.
 
 - [[2006-hinton-deep-autoencoder]] — the original **deep autoencoder** (encoder/decoder/bottleneck, beats PCA). Tier A. Root of the general-AE thread.
 - [[2013-kingma-vae]] — the original **VAE** (reparameterization trick, ELBO). Tier A. Root of the VAE thread below.
+- [[2014-rezende-stochastic-backpropagation]] — DeepMind **DLGM / stochastic backpropagation** co-founding VAE paper (recognition model + reparameterized VI). Tier A. Complements Kingma.
+
+Concept: [[amortized-variational-inference]] — recognition/encoder network that makes ELBO training scalable
 
 ### Perturbation prediction stack (refs 12–14)
 
@@ -68,6 +71,7 @@ Concepts: [[choosing-latent-dimension]] · [[linear-autoencoder-pca-equivalence]
 - [[latent-arithmetic-vs-global-shift]]
 - [[sparse-autoencoder-dictionary-learning]]
 - [[monosemantic-features-vs-polysemantic-neurons]]
+- [[amortized-variational-inference]]
 
 ### Sparse autoencoders & monosemantic features (2026-07-10)
 
