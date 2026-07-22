@@ -51,5 +51,7 @@ Sinkhorn algorithm, Wasserstein barycenters, Gromov-Wasserstein, and extensions 
 - background-for [[monge-kantorovich-formulations]] — textbook treatment of primal/dual OT
 - background-for [[gromov-wasserstein-distance]] — surveys GW among OT extensions
 - background-for [[balanced-vs-unbalanced-ot]] — situates unbalanced OT within computational OT
+- background-for [[sliced-wasserstein]] — surveys projection / sliced OT alongside Sinkhorn methods
+- extends [[2015-bonneel-sliced-radon-wasserstein-barycenters]] — monograph treatment of the SW / Radon line Peyré coauthored
 - [[Sources MOC]]
 - [[Optimal Transport MOC]]
