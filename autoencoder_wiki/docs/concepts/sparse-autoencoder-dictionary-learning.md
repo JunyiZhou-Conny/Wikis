@@ -11,6 +11,7 @@ tags:
 distilled_from:
   - "[[2023-bricken-towards-monosemanticity]]"
   - "[[2006-hinton-deep-autoencoder]]"
+  - "[[2024-lieberum-gemma-scope]]"
 ---
 
 # Sparse autoencoder as weak dictionary learning
@@ -42,5 +43,7 @@ interpretability of language-model MLPs ([[2023-bricken-towards-monosemanticity]
 
 - introduces [[2023-bricken-towards-monosemanticity]] — detailed SAE success on a 512-neuron MLP LM
 - extends [[2006-hinton-deep-autoencoder]] — same reconstructive AE skeleton, opposite capacity regime (overcomplete + sparse vs bottleneck)
+- applies [[2024-lieberum-gemma-scope]] — JumpReLU + L0 dictionary learning released across all Gemma 2 layers/sites
 - background-for [[monosemantic-features-vs-polysemantic-neurons]] — the tool used to obtain monosemantic units
+- background-for [[open-layerwise-sae-suite]] — the training recipe that comprehensive open releases instantiate many times
 - contrasts [[linear-autoencoder-pca-equivalence]] — ordered PCA/LAE axes vs overcomplete sparse dictionary atoms
