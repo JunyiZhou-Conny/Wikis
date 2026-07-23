@@ -18,7 +18,6 @@ tags:
   - topic/neural-ot
   - topic/wasserstein
   - method/neural-ot
-  - method/monge-gap
 ---
 
 # The Monge Gap: A Regularizer to Learn All Transport Maps
