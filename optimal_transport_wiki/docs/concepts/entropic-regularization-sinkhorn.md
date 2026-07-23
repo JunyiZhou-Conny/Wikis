@@ -13,6 +13,7 @@ distilled_from:
   - "[[2018-alvarez-melis-gromov-wasserstein-alignment]]"
   - "[[2018-chizat-scaling-algorithms-unbalanced]]"
   - "[[2019-sejourne-unbalanced-sinkhorn-divergences]]"
+  - "[[2023-uscidda-monge-gap]]"
 ---
 
 # Entropic regularization & the Sinkhorn algorithm
@@ -37,6 +38,9 @@ Gromov-Wasserstein and to unbalanced problems.
   ([[2018-chizat-scaling-algorithms-unbalanced]]).
 - Entropic OT is **biased** (nonzero for equal inputs); **Sinkhorn divergences** debias it
   ([[2019-sejourne-unbalanced-sinkhorn-divergences]]).
+- Neural Monge-gap solvers use differentiable Sinkhorn / Sinkhorn-divergence estimates both
+  inside \(\mathcal{M}^c_{\hat\rho,\varepsilon}\) and as the pushforward fitting loss
+  ([[2023-uscidda-monge-gap]]).
 
 ## Related
 
@@ -44,3 +48,4 @@ Gromov-Wasserstein and to unbalanced problems.
 - applies [[2018-alvarez-melis-gromov-wasserstein-alignment]] — Sinkhorn as the inner GW solver
 - extends [[2018-chizat-scaling-algorithms-unbalanced]] — unbalanced generalization of the scaling iterations
 - contrasts [[2019-sejourne-unbalanced-sinkhorn-divergences]] — debiases the entropic estimate
+- applies [[2023-uscidda-monge-gap]] — Sinkhorn engine inside Monge-gap estimation and map fitting

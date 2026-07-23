@@ -12,6 +12,7 @@ distilled_from:
   - "[[2023-bunne-cellot-neural-ot]]"
   - "[[2019-yang-scalable-unbalanced-ot-gans]]"
   - "[[2023-korotin-neural-optimal-transport]]"
+  - "[[2023-uscidda-monge-gap]]"
 ---
 
 # Neural optimal transport
@@ -35,12 +36,19 @@ generative modeling, unpaired translation, and single-cell perturbation predicti
   factor) with GAN-style or dual-maximin updates ([[2019-yang-scalable-unbalanced-ot-gans]],
   [[2023-korotin-neural-optimal-transport]]). Korotin et al. cover **weak** costs and stochastic
   plans \(T(x,z)\), recovering deterministic strong-cost maps as a special case.
-- Both rest on OT **duality** ([[monge-kantorovich-formulations]]); stability comes from
-  architectural inductive biases (convexity constraints) or saddle-point training schedules.
+- **Monge-gap regularization:** drop ICNN / \(c\)-concavity architecture constraints; fit any map
+  \(T_\theta\) by a pushforward discrepancy plus the Monge gap
+  \(\mathcal{M}^c_\rho(T)=\int c(x,T(x))\,d\rho-W_c(\rho,T\sharp\rho)\), which vanishes iff \(T\) is
+  \(c\)-optimal ([[2023-uscidda-monge-gap]]). Works for general costs and finite-sample regimes
+  where Brenier’s density theorem is a poor architectural prior.
+- These rest on OT **duality / Monge optimality** ([[monge-kantorovich-formulations]]); stability
+  comes from architectural inductive biases, saddle-point schedules, or explicit optimality
+  regularizers.
 
 ## Related
 
 - introduces [[2023-bunne-cellot-neural-ot]] — ICNN dual potentials → Monge map
 - applies [[2019-yang-scalable-unbalanced-ot-gans]] — GAN-style neural solver, extended to unbalanced OT
 - introduces [[2023-korotin-neural-optimal-transport]] — maximin neural solver for strong/weak OT plans
-- extends [[monge-kantorovich-formulations]] — a neural parameterization of the OT dual
+- introduces [[2023-uscidda-monge-gap]] — architecture-free Monge maps via Monge-gap regularization
+- extends [[monge-kantorovich-formulations]] — a neural parameterization of the OT dual / Monge problem

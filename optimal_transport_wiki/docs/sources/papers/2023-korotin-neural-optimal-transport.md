@@ -72,5 +72,6 @@ one-to-many) with a single \(\gamma\) knob controlling conditional diversity.
 - background-for [[wasserstein-distance]] — \(\mathbb{W}_2\) and \(\gamma\)-weak quadratic costs as the working geometry
 - extends [[2023-bunne-cellot-neural-ot]] — method-level neural OT (stochastic plans, weak costs) vs CellOT's ICNN Monge maps for single-cell
 - benchmarks [[2019-yang-scalable-unbalanced-ot-gans]] — sibling neural transport-map learner; NOT targets balanced weak/strong OT rather than unbalanced mass scaling
+- benchmarks [[2023-uscidda-monge-gap]] — sibling neural map learner; Monge gap targets deterministic \(c\)-maps without ICNN constraints vs NOT's maximin plans
 - [[Sources MOC]]
 - [[Optimal Transport MOC]]
