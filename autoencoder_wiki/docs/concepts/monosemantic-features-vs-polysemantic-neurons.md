@@ -11,6 +11,7 @@ tags:
 distilled_from:
   - "[[2023-bricken-towards-monosemanticity]]"
   - "[[2006-hinton-deep-autoencoder]]"
+  - "[[2024-lieberum-gemma-scope]]"
 ---
 
 # Monosemantic features vs polysemantic neurons
@@ -41,5 +42,7 @@ features ([[2023-bricken-towards-monosemanticity]]).
 
 - introduces [[2023-bricken-towards-monosemanticity]] — SAEs as a practical route to monosemantic features in LM MLPs
 - background-for [[2006-hinton-deep-autoencoder]] — bottleneck codes are useful representations, not a claim of monosemantic neurons
+- applies [[2024-lieberum-gemma-scope]] — open Gemma 2 SAE weights so others can test monosemanticity at scale
 - applies [[sparse-autoencoder-dictionary-learning]] — the decomposition method that targets this distinction
+- applies [[open-layerwise-sae-suite]] — multi-site coverage lets the feature-vs-neuron question be asked across depth
 - contrasts [[passive-latent-dimensions]] — mixed-but-active neurons vs collapsed unused latent axes
