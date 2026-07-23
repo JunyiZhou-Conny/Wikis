@@ -12,6 +12,7 @@ distilled_from:
   - "[[2023-bunne-cellot-neural-ot]]"
   - "[[2019-peyre-computational-optimal-transport]]"
   - "[[2023-korotin-neural-optimal-transport]]"
+  - "[[2023-uscidda-monge-gap]]"
 ---
 
 # Wasserstein distance
@@ -28,9 +29,12 @@ as a loss/geometry in generative modeling, alignment, and single-cell trajectory
 ## Details
 
 - W₂ (squared-Euclidean cost) is the case used by most ML work, including neural OT
-  ([[2023-bunne-cellot-neural-ot]], [[2023-korotin-neural-optimal-transport]]).
+  ([[2023-bunne-cellot-neural-ot]], [[2023-korotin-neural-optimal-transport]],
+  [[2023-uscidda-monge-gap]]).
 - Computing it exactly is an LP; entropic regularization gives the fast **Sinkhorn distance**
   surrogate ([[2013-cuturi-sinkhorn-distances]]).
+- Neural Monge-gap training uses \(W_c\) / Sinkhorn divergence both as a **fitting loss**
+  (\(T\sharp\mu\) vs \(\nu\)) and inside the Monge gap itself ([[2023-uscidda-monge-gap]]).
 - Full definitions, metric properties, and geodesics: [[2019-peyre-computational-optimal-transport]].
 
 ## Related
@@ -38,5 +42,6 @@ as a loss/geometry in generative modeling, alignment, and single-cell trajectory
 - background-for [[2013-cuturi-sinkhorn-distances]] — the smoothed, fast approximation
 - applies [[2023-bunne-cellot-neural-ot]] — optimizes the W₂ dual with neural potentials
 - applies [[2023-korotin-neural-optimal-transport]] — learns W₂ / γ-weak quadratic maps and plans
+- applies [[2023-uscidda-monge-gap]] — \(W_c\) / Sinkhorn divergence in Monge-gap fitting and regularization
 - introduces [[2019-peyre-computational-optimal-transport]] — reference definitions and properties
 - extends [[monge-kantorovich-formulations]] — the distance is the optimal value of those problems

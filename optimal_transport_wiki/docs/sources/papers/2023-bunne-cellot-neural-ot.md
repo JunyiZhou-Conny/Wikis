@@ -63,6 +63,7 @@ cells and patients.
 - introduces [[neural-optimal-transport]] — ICNN dual potentials as a scalable OT-map solver
 - background-for [[wasserstein-distance]] — the W₂ objective whose dual it optimizes
 - benchmarks [[2019-yang-scalable-unbalanced-ot-gans]] — sibling neural-OT approach; motivates unbalanced extensions for growth/death
+- contradicts [[2023-uscidda-monge-gap]] — Monge-gap MLPs drop the ICNN / Brenier constraints CellOT uses; same perturbation-map setting
 - extends [[2013-cuturi-sinkhorn-distances]] — cites entropic OT as the fast discrete solver it replaces with a neural dual
 - [[Sources MOC]]
 - [[Optimal Transport MOC]]
