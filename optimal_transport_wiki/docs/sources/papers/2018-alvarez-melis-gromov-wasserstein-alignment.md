@@ -61,6 +61,7 @@ translations, with no post-hoc heuristics.
 - introduces [[gromov-wasserstein-distance]] — relational OT across incomparable metric spaces
 - applies [[entropic-regularization-sinkhorn]] — each GW iteration is a Sinkhorn OT solve
 - background-for [[monge-kantorovich-formulations]] — builds on the Kantorovich coupling polytope
+- extends [[2011-memoli-gromov-wasserstein]] — applies Mémoli's GW metric to bilingual lexicon induction
 - extends [[2013-cuturi-sinkhorn-distances]] — uses entropic OT as the inner solver
 - benchmarks [[2023-bunne-cellot-neural-ot]] — sibling applied-OT source (biology vs NLP)
 - [[Sources MOC]]

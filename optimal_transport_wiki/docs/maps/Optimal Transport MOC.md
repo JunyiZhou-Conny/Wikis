@@ -23,6 +23,7 @@ Topic index for optimal transport: from Monge/Kantorovich foundations to neural 
 
 ## Distances & couplings
 
+- [[2011-memoli-gromov-wasserstein]] — canonical Gromov–Wasserstein metric on metric measure spaces (FoCM 2011). Tier A.
 - [[2018-alvarez-melis-gromov-wasserstein-alignment]] — Gromov-Wasserstein for aligning incomparable spaces (EMNLP 2018). Tier A.
 
 ## Neural / large-scale OT
