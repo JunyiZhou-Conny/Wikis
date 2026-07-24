@@ -61,5 +61,6 @@ reconstruction and downstream visualization/classification.
 - background-for [[2023-bricken-towards-monosemanticity]] — SAE reuses AE reconstruction but targets overcomplete sparse features, not a compressive bottleneck
 - background-for [[sparse-autoencoder-dictionary-learning]] — the reconstructive AE skeleton SAEs inherit and invert (expand + sparsify)
 - background-for [[monosemantic-features-vs-polysemantic-neurons]] — useful codes ≠ monosemantic neuron axes
+- background-for [[2018-tolstikhin-wasserstein-autoencoders]] — WAE keeps this reconstructive AE skeleton and adds an OT latent regularizer
 - [[Sources MOC]]
 - [[Autoencoder MOC]]

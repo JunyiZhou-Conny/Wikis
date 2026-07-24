@@ -33,3 +33,5 @@ Plain MSE autoencoders treat expression as Gaussian — a poor match for sparse 
 - [[probabilistic-vae-vs-count-autoencoder]]
 - [[2018-lopez-scvi]]
 - [[2021-xu-scanvi]]
+- contrasts [[2018-tolstikhin-wasserstein-autoencoders]] — ELBO/KL path vs WAE reconstruction + aggregate prior matching
+- contrasts [[wasserstein-autoencoder]] — count VAEs stay on per-example KL; WAE matches \(Q_Z\) instead

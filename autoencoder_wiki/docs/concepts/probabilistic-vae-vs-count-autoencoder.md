@@ -39,3 +39,5 @@ Pick based on whether you need **generative latent inference** or **denoised cou
 - extends [[vae-elbo-scrna-count-models]] — the ELBO/count-likelihood objective this split turns on
 - introduces [[2018-lopez-scvi]] — the variational (scVI) side of the split
 - contrasts [[2019-eraslan-dca]] — the deterministic count-autoencoder (DCA) side
+- contrasts [[2018-tolstikhin-wasserstein-autoencoders]] — WAE is a third generative-AE pattern (OT aggregate matching, not ELBO or plain count AE)
+- contrasts [[wasserstein-autoencoder]] — aggregate \(Q_Z\) matching sits outside the scVI-vs-DCA binary
