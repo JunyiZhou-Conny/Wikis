@@ -10,6 +10,7 @@ tags:
 distilled_from:
   - "[[2013-cuturi-sinkhorn-distances]]"
   - "[[2023-bunne-cellot-neural-ot]]"
+  - "[[2011-memoli-gromov-wasserstein]]"
   - "[[2018-alvarez-melis-gromov-wasserstein-alignment]]"
   - "[[2019-peyre-computational-optimal-transport]]"
   - "[[2023-korotin-neural-optimal-transport]]"
@@ -43,5 +44,6 @@ map as their gradient). Knowing the primal/dual pair explains why methods look s
 - introduces [[2013-cuturi-sinkhorn-distances]] — regularizes the Kantorovich primal
 - applies [[2023-bunne-cellot-neural-ot]] — parameterizes the dual potentials to recover a Monge map
 - applies [[2023-korotin-neural-optimal-transport]] — maximin dual for strong/weak costs → stochastic maps
+- background-for [[2011-memoli-gromov-wasserstein]] — GW uses couplings to compare intra-space metrics
 - background-for [[2018-alvarez-melis-gromov-wasserstein-alignment]] — GW builds on the coupling polytope
 - extends [[balanced-vs-unbalanced-ot]] — unbalanced OT relaxes the Kantorovich marginal constraints

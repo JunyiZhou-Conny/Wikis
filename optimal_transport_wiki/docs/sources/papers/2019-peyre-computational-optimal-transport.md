@@ -50,6 +50,7 @@ Sinkhorn algorithm, Wasserstein barycenters, Gromov-Wasserstein, and extensions 
 - introduces [[wasserstein-distance]] — canonical reference definition used across the wiki
 - background-for [[monge-kantorovich-formulations]] — textbook treatment of primal/dual OT
 - background-for [[gromov-wasserstein-distance]] — surveys GW among OT extensions
+- extends [[2011-memoli-gromov-wasserstein]] — textbook treatment of the GW metric Mémoli introduced
 - background-for [[balanced-vs-unbalanced-ot]] — situates unbalanced OT within computational OT
 - [[Sources MOC]]
 - [[Optimal Transport MOC]]
