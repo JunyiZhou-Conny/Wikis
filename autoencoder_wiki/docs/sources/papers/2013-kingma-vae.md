@@ -60,5 +60,7 @@ is the **variational autoencoder**.
 - introduces [[vae-elbo-scrna-count-models]] — the ELBO / KL objective these count models adapt
 - contrasts [[probabilistic-vae-vs-count-autoencoder]] — defines the "variational" side of that split
 - contrasts [[2023-bricken-towards-monosemanticity]] — end-to-end ELBO latents vs post-hoc L1-sparse AE on frozen activations
+- contrasts [[2018-tolstikhin-wasserstein-autoencoders]] — per-example KL-to-prior vs WAE’s aggregated-posterior OT matching
+- contrasts [[wasserstein-autoencoder]] — ELBO/VAE regularizer geometry vs aggregate \(Q_Z\leftrightarrow P_Z\) matching
 - [[Sources MOC]]
 - [[Autoencoder MOC]]

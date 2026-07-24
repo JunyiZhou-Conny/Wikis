@@ -62,4 +62,6 @@ then `decode(encode(x) + shift)`. Default AE: **512×512**, **latent 50**, **β=
 - applies [[latent-arithmetic-vs-global-shift]] — its `transport_scgen` global-shift is one side of this split
 - applies [[probabilistic-vae-vs-count-autoencoder]] — uses a deterministic AE bottleneck, not a VAE
 - background-for [[autoencoder-hidden-layer-width-scrna]] — 512×512/latent-50 default AE architecture
+- contrasts [[2018-tolstikhin-wasserstein-autoencoders]] — both couple AE with OT, but CellOT transports between conditions while WAE matches \(Q_Z\) to a prior inside one generative model
+- applies [[wasserstein-autoencoder]] — same OT+AE neighborhood; CellOT reuses the AE bottleneck for population transport rather than prior matching
 - [[Sources MOC]]

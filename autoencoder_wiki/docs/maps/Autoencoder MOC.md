@@ -14,6 +14,9 @@ Single-cell VAE / autoencoder topic index.
 
 - [[2006-hinton-deep-autoencoder]] — the original **deep autoencoder** (encoder/decoder/bottleneck, beats PCA). Tier A. Root of the general-AE thread.
 - [[2013-kingma-vae]] — the original **VAE** (reparameterization trick, ELBO). Tier A. Root of the VAE thread below.
+- [[2018-tolstikhin-wasserstein-autoencoders]] — **Wasserstein Auto-Encoder** (OT cost + aggregated-posterior prior matching; WAE-GAN / WAE-MMD). Tier A. Classic fork off the VAE regularizer.
+
+Concept: [[wasserstein-autoencoder]] — match \(Q_Z\) (not each \(Q(Z|x)\)) to the prior via OT-motivated penalties
 
 ### Perturbation prediction stack (refs 12–14)
 
@@ -68,6 +71,7 @@ Concepts: [[choosing-latent-dimension]] · [[linear-autoencoder-pca-equivalence]
 - [[latent-arithmetic-vs-global-shift]]
 - [[sparse-autoencoder-dictionary-learning]]
 - [[monosemantic-features-vs-polysemantic-neurons]]
+- [[wasserstein-autoencoder]]
 
 ### Sparse autoencoders & monosemantic features (2026-07-10)
 
